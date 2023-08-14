@@ -1,8 +1,8 @@
 ## M3U8视频边下边播示例
 
 视频播放逻辑：
-![hls.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2cf38a60-e3b0-46a9-8adc-93e6a949d15e/hls.png)
-
+![hls.png](./HLS_Server.png)
+ 
 三方库依赖：
 ```
   pod 'GCDWebServer'
