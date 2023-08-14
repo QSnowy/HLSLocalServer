@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CCC78B127973C13DBB79724 /* Pods_HLSLocalServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1203639DEAB9413E363B4F1E /* Pods_HLSLocalServer.framework */; };
 		8FBFA4CF2A7C8F0E003B2A75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFA4CE2A7C8F0E003B2A75 /* AppDelegate.m */; };
 		8FBFA4D22A7C8F0E003B2A75 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFA4D12A7C8F0E003B2A75 /* SceneDelegate.m */; };
 		8FBFA4D52A7C8F0E003B2A75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFA4D42A7C8F0E003B2A75 /* ViewController.m */; };
@@ -14,9 +15,12 @@
 		8FBFA4DA2A7C8F10003B2A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFA4D92A7C8F10003B2A75 /* Assets.xcassets */; };
 		8FBFA4DD2A7C8F10003B2A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFA4DB2A7C8F10003B2A75 /* LaunchScreen.storyboard */; };
 		8FBFA4E02A7C8F10003B2A75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFA4DF2A7C8F10003B2A75 /* main.m */; };
+		8FBFA4E82A7C9498003B2A75 /* QSHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFA4E72A7C9497003B2A75 /* QSHTTPConnection.m */; };
+		8FBFA4EB2A7C94AD003B2A75 /* QSHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFA4EA2A7C94AD003B2A75 /* QSHTTPResponse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1203639DEAB9413E363B4F1E /* Pods_HLSLocalServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLSLocalServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBFA4CA2A7C8F0E003B2A75 /* HLSLocalServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLSLocalServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBFA4CD2A7C8F0E003B2A75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8FBFA4CE2A7C8F0E003B2A75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +33,12 @@
 		8FBFA4DC2A7C8F10003B2A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FBFA4DE2A7C8F10003B2A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FBFA4DF2A7C8F10003B2A75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FBFA4E62A7C9497003B2A75 /* QSHTTPConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSHTTPConnection.h; sourceTree = "<group>"; };
+		8FBFA4E72A7C9497003B2A75 /* QSHTTPConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSHTTPConnection.m; sourceTree = "<group>"; };
+		8FBFA4E92A7C94AD003B2A75 /* QSHTTPResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSHTTPResponse.h; sourceTree = "<group>"; };
+		8FBFA4EA2A7C94AD003B2A75 /* QSHTTPResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSHTTPResponse.m; sourceTree = "<group>"; };
+		B02BFCE0F4C6A2618749689A /* Pods-HLSLocalServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLSLocalServer.release.xcconfig"; path = "Target Support Files/Pods-HLSLocalServer/Pods-HLSLocalServer.release.xcconfig"; sourceTree = "<group>"; };
+		DB419ABC1E7D72190E4FD9EC /* Pods-HLSLocalServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLSLocalServer.debug.xcconfig"; path = "Target Support Files/Pods-HLSLocalServer/Pods-HLSLocalServer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CCC78B127973C13DBB79724 /* Pods_HLSLocalServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B2825ED7D0E59C06356EFD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB419ABC1E7D72190E4FD9EC /* Pods-HLSLocalServer.debug.xcconfig */,
+				B02BFCE0F4C6A2618749689A /* Pods-HLSLocalServer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		56AB1133BF18E8A6B31F9229 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1203639DEAB9413E363B4F1E /* Pods_HLSLocalServer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8FBFA4C12A7C8F0E003B2A75 = {
 			isa = PBXGroup;
 			children = (
 				8FBFA4CC2A7C8F0E003B2A75 /* HLSLocalServer */,
 				8FBFA4CB2A7C8F0E003B2A75 /* Products */,
+				0B2825ED7D0E59C06356EFD5 /* Pods */,
+				56AB1133BF18E8A6B31F9229 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +97,7 @@
 				8FBFA4D12A7C8F0E003B2A75 /* SceneDelegate.m */,
 				8FBFA4D32A7C8F0E003B2A75 /* ViewController.h */,
 				8FBFA4D42A7C8F0E003B2A75 /* ViewController.m */,
+				8FF3D38F2A8A0BC100FD509F /* HTTPServer */,
 				8FBFA4D62A7C8F0E003B2A75 /* Main.storyboard */,
 				8FBFA4D92A7C8F10003B2A75 /* Assets.xcassets */,
 				8FBFA4DB2A7C8F10003B2A75 /* LaunchScreen.storyboard */,
@@ -76,6 +107,17 @@
 			path = HLSLocalServer;
 			sourceTree = "<group>";
 		};
+		8FF3D38F2A8A0BC100FD509F /* HTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFA4E62A7C9497003B2A75 /* QSHTTPConnection.h */,
+				8FBFA4E72A7C9497003B2A75 /* QSHTTPConnection.m */,
+				8FBFA4E92A7C94AD003B2A75 /* QSHTTPResponse.h */,
+				8FBFA4EA2A7C94AD003B2A75 /* QSHTTPResponse.m */,
+			);
+			path = HTTPServer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FBFA4E32A7C8F10003B2A75 /* Build configuration list for PBXNativeTarget "HLSLocalServer" */;
 			buildPhases = (
+				6DFCEF088EE5135D0A5B2E51 /* [CP] Check Pods Manifest.lock */,
 				8FBFA4C62A7C8F0E003B2A75 /* Sources */,
 				8FBFA4C72A7C8F0E003B2A75 /* Frameworks */,
 				8FBFA4C82A7C8F0E003B2A75 /* Resources */,
+				81CD86EB9F0722F7EB1D2F5F /* [CP] Embed Pods Frameworks */,
+				1E59E4351292B5102CEB91FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,15 +186,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E59E4351292B5102CEB91FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HLSLocalServer/Pods-HLSLocalServer-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HLSLocalServer/Pods-HLSLocalServer-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HLSLocalServer/Pods-HLSLocalServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DFCEF088EE5135D0A5B2E51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLSLocalServer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81CD86EB9F0722F7EB1D2F5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HLSLocalServer/Pods-HLSLocalServer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HLSLocalServer/Pods-HLSLocalServer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HLSLocalServer/Pods-HLSLocalServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FBFA4C62A7C8F0E003B2A75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBFA4EB2A7C94AD003B2A75 /* QSHTTPResponse.m in Sources */,
 				8FBFA4D52A7C8F0E003B2A75 /* ViewController.m in Sources */,
 				8FBFA4CF2A7C8F0E003B2A75 /* AppDelegate.m in Sources */,
 				8FBFA4E02A7C8F10003B2A75 /* main.m in Sources */,
 				8FBFA4D22A7C8F0E003B2A75 /* SceneDelegate.m in Sources */,
+				8FBFA4E82A7C9498003B2A75 /* QSHTTPConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +393,18 @@
 		};
 		8FBFA4E42A7C8F10003B2A75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB419ABC1E7D72190E4FD9EC /* Pods-HLSLocalServer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75W5567F3U;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DD_LEGACY_MACROS=1",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HLSLocalServer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,6 +412,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,12 +427,18 @@
 		};
 		8FBFA4E52A7C8F10003B2A75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B02BFCE0F4C6A2618749689A /* Pods-HLSLocalServer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75W5567F3U;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DD_LEGACY_MACROS=1",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HLSLocalServer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -327,6 +446,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

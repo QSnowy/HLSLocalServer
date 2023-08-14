@@ -1,0 +1,44 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - CocoaHTTPServer (2.3):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+  - CocoaLumberjack (3.8.0):
+    - CocoaLumberjack/Core (= 3.8.0)
+  - CocoaLumberjack/Core (3.8.0)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - ZFPlayer (4.1.4):
+    - ZFPlayer/Core (= 4.1.4)
+  - ZFPlayer/AVPlayer (4.1.4):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (4.1.4):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.1.4)
+
+DEPENDENCIES:
+  - CocoaHTTPServer
+  - GCDWebServer
+  - ZFPlayer (~> 4.0)
+  - ZFPlayer/AVPlayer (~> 4.0)
+  - ZFPlayer/ControlView (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - CocoaHTTPServer
+    - CocoaLumberjack
+    - GCDWebServer
+    - ZFPlayer
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  CocoaHTTPServer: 5624681fc3473d43b18202f635f9b3abb013b530
+  CocoaLumberjack: 78abfb691154e2a9df8ded4350d504ee19d90732
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  ZFPlayer: 5cf39e8d9f0c2394a014b0db4767b5b5a6bffe13
+
+PODFILE CHECKSUM: 863ddd659a8fdca3727c19d85973564da5a5bd2b
+
+COCOAPODS: 1.12.1

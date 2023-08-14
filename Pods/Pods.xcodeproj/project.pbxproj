@@ -1,0 +1,2176 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0077CD18048A02EEB797EA7904719DDD /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B27B9ECE7CF3CE7608FDB2E100B78E /* HTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0142A430D129C729982D62895B5AE5A4 /* ZFLandscapeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C28289D3328D2F60C11665D9F375A435 /* ZFLandscapeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01AAE36790E38EBA0BA7505D06AC668C /* MultipartMessageHeaderField.h in Headers */ = {isa = PBXBuildFile; fileRef = 86CCE7207C82C07AD982EBBA4FFBCBB1 /* MultipartMessageHeaderField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02085A4DBE7C18EEE612837B12DFCF5E /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F227CD3D0DF6FDEA20A1F0A2CCC9625 /* GCDWebServerHTTPStatusCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02C1E7F9E918CA4BF0373F467AB6537A /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0493C18AB11422117FF69A73768AD972 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02DB36067F45780CBE4ACF041F0AB3A5 /* MultipartFormDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AA952F1276C8595556965003F7447B42 /* MultipartFormDataParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03184E8A0EFC86FB30FD66CDB3A6C3AA /* ZFLandscapeWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 27480589C3789E0E15DFC4DFA343F297 /* ZFLandscapeWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		039F1830DE990D12A184CFD02CB54285 /* ZFPlayerLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D94F3210A8C13AEE450EC80E849887CB /* ZFPlayerLogManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03D66386290DB5031758A0C3BD195B75 /* UIScrollView+ZFPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2091F9DE52163A0CAE215896798B4F0E /* UIScrollView+ZFPlayer.m */; };
+		061564A839B1A8E22E28EC67DCD9790C /* ZFSmallFloatControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32371C56B839444CCCB633D01412F6C4 /* ZFSmallFloatControlView.m */; };
+		064746793F56591D53791B429704EA28 /* ZFNetworkSpeedMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F4AEAE71AF0D535DFEBA485D47DA5A /* ZFNetworkSpeedMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		072851320E8428B7D7302D242106A24F /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2570EFE3340A6F5E6B44146F2D1ED8 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		075F02C926B246B9E2C7A4264A699734 /* ZFLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6E51C6F9DD306DF25DB21C7FFE29C8 /* ZFLoadingView.m */; };
+		07BFEDBF85466E1BA0B8F189D3E79E11 /* HTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 47991AE5A3130433190EA61C0620C2C0 /* HTTPDataResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		095A4EEA0A4F56DB0BF89A24406BBD31 /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 60937765822C9272EA3C7FF327DECF33 /* DDOSLogger.m */; };
+		09FE847E27B56E8EB38B08092FC6B586 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 362970EA400FD9F4D4F45C6CB6659EB5 /* GCDWebServerStreamedResponse.m */; };
+		0B0AC1CA2A2DEA16AFB59533C95E8E24 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7435784533848A3D0CAD958E400865 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D8636813F45F76286699D0E2FD0429C /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC820D10CF37F1E20A9D5C988BFCD87 /* GCDWebServerFileRequest.m */; };
+		0E473D493B9159E34D9DB4AFC4C29914 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B124FAA927B4C2C33F54F1C7076C7981 /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 197A4A725E0C948163567AE91F72B901 /* CocoaAsyncSocket-dummy.m */; };
+		13284ADCA851B3CF531D992CAC5EB69C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E349521A048283CF9D061B4316F8AF1 /* MobileCoreServices.framework */; };
+		1356672419EF75DC8F0B7D18B4068433 /* ZFPlayerStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0549C687DACFAE788A145CB3224AD557 /* ZFPlayerStatusBar.m */; };
+		135B9E424A44225E8B73EFDE4DFE1739 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 094D016BD968F67B4C47BE53D6092C8B /* GCDWebServerErrorResponse.m */; };
+		135BF8C89171D3BA9015BEC912BE650E /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AE990D77E23BFA4A504EBF6B3D719DA6 /* DDLog.m */; };
+		14D2F9C7DA532C3B54B99B828D7EC250 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 741B66DB3B93556012B100F05E852D3E /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		158F6984DCE357B419B69A705F919CE0 /* ZFPlayerControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = E125A903EB9F2AD585337ED940F20051 /* ZFPlayerControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1864E95FF2D1ADBF32FD86F8355CFB49 /* ZFPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D8B55577F8B1AD9CBA263338308495 /* ZFPlayer-dummy.m */; };
+		192838E041AC1E270B4F80CC7EE461C9 /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 78606684075F072752648ADF5A19EA7D /* GCDWebServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19919FC815BCD25518C388EB1427B6F9 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B091C7C96151F283D9F0EB3E3DC24 /* GCDWebServerDataResponse.m */; };
+		1AA751E242EA4245230136018316D307 /* DDFileLogger+Buffering.h in Headers */ = {isa = PBXBuildFile; fileRef = 9123F06D90942BBB5AE9FBB1C4DC62D5 /* DDFileLogger+Buffering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AF745EEAD4E50EA6B944D4729C5F379 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 370C969F1CDF94EB7306A63AB3E5862B /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B567CE46827740FEB1AC5C691C7C2C3 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 721389430F494E39C82ACBD9D5B3DCB6 /* DDDispatchQueueLogFormatter.m */; };
+		1B695AD66EE8AA3B4BE252C1875750B5 /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA35C7D080742D1922D0CA402FBA5571 /* CocoaLumberjack-dummy.m */; };
+		1C72AE8B037AA9A7D5B622F45DDD74F7 /* ZFPlayerLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1EAA3D1595A94D433DA034FC60FF9A /* ZFPlayerLogManager.m */; };
+		1D8E5C851E21B323637BAD53B9AE67B6 /* ZFLandscapeRotationManager_iOS16.h in Headers */ = {isa = PBXBuildFile; fileRef = 118BAB25CA9C9B911DE59BD7C77305E8 /* ZFLandscapeRotationManager_iOS16.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F50D3D0C402D68284919F1C9E357284 /* ZFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 702DB0EB64C48274AB89A01DD614EA11 /* ZFUtilities.m */; };
+		1F5583F874A7E61A3D1AC731AAD8B13B /* DELETEResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABF7ED19BA21E50A403E310E01BCC7A /* DELETEResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2121047766D51B7BEF793200283936D1 /* ZFVolumeBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACAA7804668B9C5AD36024C4B8864D1 /* ZFVolumeBrightnessView.m */; };
+		23F150E917B6848B6FD2101955508147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20243D2A2B869E5180A5018EA91679E6 /* Foundation.framework */; };
+		24A895346695808E5CEF90CD04456121 /* DDNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = A270502376CDBCC2680E7229B5DEC751 /* DDNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		258C6A83830AC9D9218517AF7D17C624 /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B5E0951C24CEDC78E41E4F2D6492F8 /* GCDWebServerPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		26348B4ECCDE0D5B67A90F84B772C671 /* PUTResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 754A1CA179695DECA2CA94C1AF6910F2 /* PUTResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20243D2A2B869E5180A5018EA91679E6 /* Foundation.framework */; };
+		28733C14B59F0BC154FB3F76C9F637E1 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B52B5D4E55646A71120E03321E229249 /* GCDWebServerConnection.m */; };
+		298F4B30DB2ECC083FAC742094FB023F /* ZFPresentTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E20B4BC6BCB8CE519B49C22B226868 /* ZFPresentTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29E3745AAE224FE99BE3ACD8204A0BAC /* ZFFloatView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A665360648257AC75F384A559DE2583 /* ZFFloatView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB4668A2775087EEBEFD4EC92F1FC0F /* CLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C80ABB8D258E04ED3A73A98824B1BF /* CLIColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CC88973631A732FD37480B362D0D9B3 /* DDLoggerNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3398EFB9B34A650BD202322E8443A /* DDLoggerNames.m */; };
+		2FFD063F189C85BD15BF2E58C74C1C29 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C095E60C29AF86ED262E80DD86AEBEE /* GCDWebServerURLEncodedFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FFF585E9C5A7DBF467AE28F37CC6380 /* ZFPlayerMediaPlayback.h in Headers */ = {isa = PBXBuildFile; fileRef = 439AD0AA4AFF1636F00E7C95F8BBE872 /* ZFPlayerMediaPlayback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		334ECED633CAB8B64D11398B47815B12 /* ZFPlayerNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 13EBC0AF1E9D8044C633894E732F0F1B /* ZFPlayerNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458C5762ADDB8A6E7AF2DE55317DBEF1 /* CFNetwork.framework */; };
+		34C16CFF58840FD517A356EC3F7AE349 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 127071A3BE3E64C31CF7933E8CA06EC3 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		356D49A649D63C907113F814BD8EF020 /* ZFVolumeBrightnessView.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB4BF272FC69B359AB80082682061D8 /* ZFVolumeBrightnessView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371B5D055B1927ABC1FE5F2CBD44CD15 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 384DCBB6D8A211E6D192A9C665791157 /* GCDWebServerFileResponse.m */; };
+		37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E679FDAEE4D78FA49096DF1F8BAA6FD /* GCDAsyncUdpSocket.m */; };
+		37B6563E902FB9160B6C27CBC8FD72CE /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AF6628C77938941759D35B8F3AD7FF /* GCDWebServerRequest.m */; };
+		384D726CE8DB8F8E39282EB0E2A9AE41 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E148CC8546EB106979F84336B733D20A /* HTTPAuthenticationRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3A0FAEB6BB1240671906DDD2C6CEE621 /* DDFileLogger+Buffering.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA995909D14C306A9813BC5F91454B0 /* DDFileLogger+Buffering.m */; };
+		3A4516CDB9230AA39DC30BAAEFF1D374 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9242E0FE00D2F92E1878983FD211A0 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		402EFA6D7339A391C31315BD265BD7D5 /* DDData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D07C9E7A916D3D54077AAEFF15C99D1 /* DDData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		408922BBCA1DA228F5B4603902A32790 /* ZFReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B421D289A63C8BD7E00C93FAADC52 /* ZFReachabilityManager.m */; };
+		449B981D00F95911D6BDE165830C8D5C /* ZFPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4EF3904433A95026D28EAAAFFD781 /* ZFPresentTransition.m */; };
+		454381EDB268D93A7DDBB1E7ED7743BD /* Pods-HLSLocalServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E5784ED0C51783E1EDA07DD76F30C4 /* Pods-HLSLocalServer-dummy.m */; };
+		470344EE768FC25C8719E1A9B9A76199 /* ZFLandScapeControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 352557CA1E05B1A047A62B62848AA6B9 /* ZFLandScapeControlView.m */; };
+		47052864A1A923E5374546FAF49AD0F5 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 98226D92B526E328412607ACDDB61C00 /* GCDWebServerURLEncodedFormRequest.m */; };
+		4A6216461951EA92024735E0D50A5CEA /* ZFLandscapeRotationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC9E43730838C0C615CCB9020B8E571 /* ZFLandscapeRotationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F11F585DC59C8263F95EDEDBB002369 /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9698C4B7AB33BF5D88441AA7D2CE735F /* GCDWebServerDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F34C91AFF6AA661FDCFA4422649E3C6 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D5C8F09231AA9256A94A836CD4F4A9 /* DDAbstractDatabaseLogger.m */; };
+		4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F015247E5840BA82CF6B2D77381D2D1 /* GCDAsyncSocket.m */; };
+		503963524ED16E421C2DB02E525810B0 /* ZFSliderView.h in Headers */ = {isa = PBXBuildFile; fileRef = C959DA7A8E9053366430CFECDF8BC138 /* ZFSliderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50B00243245E1B5DF5DF5CB6B93F26EA /* PUTResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDF8C60C9D303F7F9D868900EBC2F41 /* PUTResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		526C75C1AFE7B42E6A8F6F2C83557175 /* ZFPlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FBEBBB5079FC37C8006BC6A1075248D /* ZFPlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		556B0C4875E07C2C8A0519899693C72B /* UIImageView+ZFCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C22103B3975548D15D4C5DFCACA97DC /* UIImageView+ZFCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57510204D6223539F861AEBF5ECD2BD7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458C5762ADDB8A6E7AF2DE55317DBEF1 /* CFNetwork.framework */; };
+		5C1AF6C4AAFFAF2AD3B71888CF73E196 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4838BC523E863F23057D2C4E48DD301B /* DDASLLogCapture.m */; };
+		5CC591C4ACFB80E65A9F670144140068 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA7102686D53A4597B4F6B4654C7403 /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CCF93E89F4241274095C5E7543E21B6 /* ZFReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 25556F1A8BBE651B67E42157C55F8B91 /* ZFReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DBF75C21727F06ABF2F7C06D9C9E307 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 333C8A4D844FBF940CB3DD437766DB3F /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DF923CDD6B1DB2EFDEE73CC8B3E09DF /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4847CB64296047DE032EBE5D81D7AB3C /* DDData.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5E3D6E4EEFC865DF7DAD16856CE8A4F5 /* ZFPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3A19DFB9E6D9FE9CF9B5144C195DC /* ZFPlayerController.m */; };
+		603710025E2C85455C1D5FF942AB77F1 /* ZFPersentInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 530AF096C7687E04D8B5A27C3D3C60E1 /* ZFPersentInteractiveTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60499FD6D506247BCAD09E54BAB0F577 /* MultipartMessageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A632D06307D37748347166C2BEF514 /* MultipartMessageHeader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		60F5486E8F9EE576E7BF9E9673060F84 /* ZFPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C9708F3E90600EB0D60F8460E1F35B /* ZFPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A88716368F400CD462B76D9AAB3DBB /* UIScrollView+ZFPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C795D3808D41EFA66BBF50F89622859 /* UIScrollView+ZFPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64B146909976A822ED9A97EF9A8C95DA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458C5762ADDB8A6E7AF2DE55317DBEF1 /* CFNetwork.framework */; };
+		67804693B9C23F960AC6DACBDFC3EDA9 /* WebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 1523E015243538C0E3A31286B29C907B /* WebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = AD091D51D42F375F7F73606D892A33A7 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6855EAD1E4E4B43E8F493E040D137E8B /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 676C02F1B3AAF106FAFC86E1202C0382 /* DDFileLogger.m */; };
+		6E141438511049139EA7045C6440078E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20243D2A2B869E5180A5018EA91679E6 /* Foundation.framework */; };
+		6F890BB11AC394E029BD369AA500DC1B /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E167B890839493EBEC71CF8083AED12 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FC458E13661366100FB003E3A155547 /* ZFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB09F99F82F3BED2B52E1FF5C96A810B /* ZFPlayerView.m */; };
+		72C1C0BF81744677C7552A0E049A4B50 /* MultipartMessageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 691D0BBAF0D653EC17D972263AF31E9E /* MultipartMessageHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74D5B50CB9B058E547BD2BCF3661BE97 /* HTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 16ECD3DCFF5507385003C6D0BF2199A5 /* HTTPAsyncFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768C4AFF8493D28D3FC1C1AC16744DDE /* ZFPortraitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 82AABCA2EEF22DA8772A98047DDC1152 /* ZFPortraitViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		784811992438FE7C8A58ACBBB905C158 /* CocoaHTTPServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B1AFA6296019186C5E64DA506B91F5 /* CocoaHTTPServer-dummy.m */; };
+		7A101968933DF9CD2704382DDA59FC0B /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCA2FC121F842BF187B7E307B961104 /* GCDWebServer.m */; };
+		7A57629D7074974DD9348DA082E977D1 /* ZFKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA35525DB6D56E56FC9F183D1E7493D /* ZFKVOController.m */; };
+		7B065FFD6186A174424431FC6F5923F9 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = B4FF8F4B1D5181775324E7CDF8439429 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B9B7F12A8A3736ACBE624E6A40929A3 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 14175FF16C9DCC6B37CD95F1C1B385CF /* DDContextFilterLogFormatter.m */; };
+		7BA03371547D43019D779AB76C4BAB54 /* ZFAVPlayerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D46AF212A0B4298A982BBCB7AD07DC0 /* ZFAVPlayerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBD34E9FF762C01A76E8C50D931F36 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DA71D99B84CC31B34655AB37756F334 /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 657C7B2DCCDA64D2E3D7435F8B6D0A2C /* GCDWebServerConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		808A12384A84C1116C7DE9A072473C96 /* ZFLandScapeControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 51EF2B6E7A3D28F507561158B1D715E1 /* ZFLandScapeControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81824204ACA166DC5358A40BEF07CAA0 /* MultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B946FB9437E83EAD4A989A2788566FA /* MultipartFormDataParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8383131832BB3BE0409236B26A47A426 /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9B2DF1570AD6F493D65BB39FC8853A /* GCDWebServerDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85B473E8EB5074C92CBE92A0B88F1C5C /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 682EBC3FCB9A450CADA4E0DAB67EA7F8 /* GCDWebServerFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85FE9A891EF340F047649EDB8C8BBEF6 /* ZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2C4FF288FBD9DC55251355D0A17E7F /* ZFPlayerControlView.m */; };
+		87EE95A78616C3243BAA4C6CF31EA153 /* ZFLandscapeRotationManager_iOS15.h in Headers */ = {isa = PBXBuildFile; fileRef = 279FF3ED8E9AA1C9D24126E408514D03 /* ZFLandscapeRotationManager_iOS15.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		880E3A83001434E5B845859C545BD07A /* DAVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9935E0523B0A65EE7B0AEC4F007D0974 /* DAVConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		885915598CF9598D69F2495AA87B8FE8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FBB520FA5FF7E8D89906498B56F459 /* Security.framework */; };
+		8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FBB520FA5FF7E8D89906498B56F459 /* Security.framework */; };
+		8CBA58F06A9C919DF38B39749CC8B4A5 /* ZFPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4277EB4637BB0F2907854E477EC4F769 /* ZFPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CFA53A4ACED6AEB4C2B7D3114595884 /* ZFPlayerNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1C165567377C3B698EA366E9C239C7 /* ZFPlayerNotification.m */; };
+		8D3EB0294DDEEFDFC7307FF9F10E89F1 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B6F04B0776CD5201C646862B83E630 /* HTTPServer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8F27149A46E7EEF3B5D467962359A208 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA442A53148EE3EE4F96E5B4227AE2E /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F349BF2BD167E2432EA052BCDE55E81 /* DDLoggerNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADC749878FB3E25EB6559B55B150A4D /* DDLoggerNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FF6D9A42176D6F0CC84D510E93DE591 /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CA15CE3C562DDF95B232341305524788 /* HTTPFileResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8FF8A2A57596CE8E8027C960009223FB /* ZFLandscapeViewController_iOS15.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C5FE34C73AF74E2B47A4097298323A /* ZFLandscapeViewController_iOS15.m */; };
+		905E6958C6411FC0983F51646D18D849 /* HTTPRedirectResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A11884FFAE414851ED7163DA76D746B0 /* HTTPRedirectResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		949AEF7F1E27B68BBD6675CECA3B22BC /* ZFLandscapeRotationManager_iOS15.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E61030C77AF9D36D16A556C703CB1 /* ZFLandscapeRotationManager_iOS15.m */; };
+		954CA5F4BBFF2EF9341B8F68C33DDE40 /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = E7FA840041476367C98CA9A1141EC408 /* HTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95DEEF851E39340E9FA158CFABD7C443 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E2850655C52B68788B4C5DD9263A9E /* GCDWebServerFunctions.m */; };
+		962B53744F300E81FEA88893795CC4B8 /* ZFOrientationObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = A99A908407270A0747B5A18B4DCCE76A /* ZFOrientationObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		966652B409FD1D8A7C04280F8FDCCA3F /* ZFUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = ED9CE00D2E5522CF2E861A7F1CB7D3BA /* ZFUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97A93D96C77E2E7CE250D734CD4238B0 /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0903EB77D68DA86731EE4B74B261F5FF /* HTTPRedirectResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		97C3B50B3783DB389C923B4C8E7578F6 /* ZFPlayerConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A53149FF3F3081C836700B4B364E1E /* ZFPlayerConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97DCBAC9D16CE5AA914D5FC72D7CDDF5 /* ZFLandscapeViewController_iOS15.h in Headers */ = {isa = PBXBuildFile; fileRef = F39FF45026E1D938EBED2E03D2B13305 /* ZFLandscapeViewController_iOS15.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9828CB96CEF532348083191A143D0022 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A534F2440159B70781B302372E61F95B /* GCDWebServerResponse.m */; };
+		9D059B49BB3B44FDBCA7F58449813A6F /* ZFLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D2A82A72BD0AE86A39E25EAE73F53F /* ZFLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D100C1970544DC6006E518E8E3E8581 /* UIView+ZFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E6106953F169500BDEFD141866FAB145 /* UIView+ZFFrame.m */; };
+		9D66E736FDB62592518A9A66BEAC731D /* MultipartMessageHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = 790BD4023B8DC786673B01267B258075 /* MultipartMessageHeaderField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A263E3C89613338469605605D0AEE6B5 /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9565B5A6E826AEFF8E46DB0783C62E67 /* HTTPMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2C2938891F4A95919773DD6A954A44F /* ZFKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 200F68F79C6609F44057C52B1BDF5075 /* ZFKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7441333BC971B3DB6F8D4DE7F1FECD6 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5B9458497200B9FDDE4A24E4AA51D /* DDTTYLogger.m */; };
+		A777D8FD3B4BB74EB35DC1FDB8B319E7 /* DDFileLogger+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B572E1835B8CDA940FA561A661393E /* DDFileLogger+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A8198EF9A72191EB1DF1D746B83BF809 /* ZFPlayerGestureControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F041FB944F3F7FA46BC34C1281A626 /* ZFPlayerGestureControl.m */; };
+		A839E6217CA76C437D5EDAF39C7B92A7 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = CF91C5D6920AB50C8C5BCF888A7F7AE1 /* HTTPConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A941F1890493D7FE07D442AD5C6B51DE /* DAVResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CB013F66347656067ECBC6DF50EACA /* DAVResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AF3A504AA8150B078240AFFBC571A866 /* ZFFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9296AD4F05D01A649F01FD76EA118C6 /* ZFFloatView.m */; };
+		AFD108329843DB62DBCE62BBC1A86B7F /* DAVResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E266BBBD79D92C102C9787344C187E73 /* DAVResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B007EF64AA9CE7AFBF5A622C81C69491 /* CocoaLumberjack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B67ACA213F4E356DE19D03D5FCF0B01B /* CocoaLumberjack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B04BA6F5DE5C0740EC63F0AF46D93B01 /* CocoaHTTPServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35567596BA116D2EFC5740AAEB00B28B /* CocoaHTTPServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B059E8AB64EDAC65AC4B631311DD068C /* HTTPDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E20CB1E6F60C59FACF57B46372FE760C /* HTTPDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 852C0DB6B884704C8332AA43BBCCD107 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B28116631DF8F5381C6668448CA3BD78 /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8FA812D8149E74DE2ECBF9C9FD4E76 /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B28FD679CD0248C257E4B83EF19F489A /* DDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = D824537EB10DA3726B0FA0971DF43826 /* DDRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2BF5CC84D1F35FFD2EED22777E6F5BB /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D3493A6E4714B23BA70F4EF001F8AF /* DDASLLogger.m */; };
+		B3CE8C0C90025CF4F24487BBDCF50903 /* ZFPortraitControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89256EF9DFCB93556C33E42B788FF55C /* ZFPortraitControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3F9D6C3EE8A54CB2A006F06675631F7 /* ZFSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D6457FFD723F454F2D6690C9977C29 /* ZFSliderView.m */; };
+		B505DB0792EFE82C8D40D95B23EE4374 /* ZFNetworkSpeedMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 352406BC15FACB8514A13B5EE7409B47 /* ZFNetworkSpeedMonitor.m */; };
+		B5BE1B8B214A0375C2101A8283874115 /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FB67DB12C4D3F554A50F10978B2EA8 /* HTTPDynamicFileResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B80E4A94DB30634DD13C122028424DE7 /* ZFLandscapeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CD77AC692AA5E43FA6CB874A5AA75FF9 /* ZFLandscapeWindow.m */; };
+		B8303F0DF9906AF93D2C593B425F0B00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20243D2A2B869E5180A5018EA91679E6 /* Foundation.framework */; };
+		BDCCF2CEF62852FC0B113FBF4C5523B9 /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F21122B71C39B497DEDA7E9583534A0 /* HTTPAsyncFileResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C1368DFAF5F0813C0474CEE7CD439E20 /* ZFPlayerGestureControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A25B66200D5D30AF4083E8296E36042 /* ZFPlayerGestureControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1B628263B2AC7C29AFC2635EF2641FB /* DDOSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E6386B90BAD136929EBC8BFDAD5B35 /* DDOSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2456DED92A437BD36446043347F82FE /* GCDWebServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 471876FB8F8AC996DC52FF63F31370D1 /* GCDWebServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C42FCE48A86E2D456501662784820E4C /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB814FD594AD0F6C57198DB5AC06AA4 /* GCDWebServerErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5E43231274E5468D0C862E46A64ACDD /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D1C3690ABA931CA86EFFE80BD5727B /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7866C8C01B672F0FD573F04347F02DB /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F9C7338BE96917CD2D94034C2C114D95 /* GCDWebServerRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7E983C07AC4622FAE67A5F814711A02 /* ZFSpeedLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E3108822BED08DD12307D6E4A40078 /* ZFSpeedLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA07D9599EF9FA8A0E68489D57C4A58F /* ZFPortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1404729A4C3EC32868B86D29A47F781A /* ZFPortraitViewController.m */; };
+		CA62AD5F3518318B9DCF26A8113BEACE /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 721B352949267612D8D291F5699B2A51 /* GCDWebServerFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAE997EA797010B106BF3F32C4F0D5E2 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2287361B4232EDBC13BCE659E01B4E58 /* GCDWebServerFileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAF0A23AC4E25B483F9C6A5E0351949A /* ZFPlayerStatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2724FDCC671822DC196C67D3C6C8BB /* ZFPlayerStatusBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBCBC37CF054A18966D0E2579E384BDE /* ZFLandscapeRotationManager_iOS16.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F19F965BCA395CBCFEA2E87A5F3292 /* ZFLandscapeRotationManager_iOS16.m */; };
+		CE1146326ADB1DBD9841A85BC9187F1E /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D36CF1B9FEAFB3DB809BA20FE418B01E /* HTTPAuthenticationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2DB5B1E4317227DA5FB496610C094A /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE3E03C3A64860B2D0A955B330373FB /* DDNumber.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CF47176AFEFDBBD855AD4B04B3DABC86 /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BC334C6EF82A94220F36BB1B50ECE6 /* HTTPMessage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D015DD7567C65B0421DC536ED33A2775 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10B3EA21DEED1EA626E30D9B3BF636 /* GCDWebServerMultiPartFormRequest.m */; };
+		D1608EFF3F1F958E43A3DC54AB691D05 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E326332FE26B2852276AE05CF0C8BC /* CLIColor.m */; };
+		D397999901996C42B9768CBADE5B55E5 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 793F4914A480D7BCABAC9F525AD0FC0C /* GCDWebServerDataRequest.m */; };
+		D424D12DADDF8E8641F7572798861E20 /* HTTPDynamicFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9858EF6320CBF9AE23E579168BAF62F4 /* HTTPDynamicFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5BE9023AEA341BF2F0B583DEA3AA61C /* HTTPFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8716E69B932BC629EBBDDE882D644427 /* HTTPFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6AD96E99093CDA28F73E898A5354CCE /* ZFPortraitControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CAC90449AD9916E536D36446CBEB59 /* ZFPortraitControlView.m */; };
+		D8142DC2A1ECBD89F704BE11944532B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20243D2A2B869E5180A5018EA91679E6 /* Foundation.framework */; };
+		DB9130167C942F246A6C11655FDF92C4 /* ZFPersentInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B10F87D99014F1708624A47338FEAC6D /* ZFPersentInteractiveTransition.m */; };
+		DBF9E277C21A740D7AECF168B739B1FF /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E774CDA3844F24CF413B9F96306A80 /* DDMultiFormatter.m */; };
+		DC99689489319BFFE1717ABC55118A65 /* UIView+ZFFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2721D8732242F8D1052F57AA299AF6 /* UIView+ZFFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF47765E8179A3EC6D56746B035E3F5 /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A052815DD727737698D1890CFFF85D /* HTTPConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF5F9701CDCD4A324FF9D942B5BB2E14 /* GCDWebServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F41CA6343039F399BE53223F71E300B /* GCDWebServer-dummy.m */; };
+		DF91F9A7097F88CB5622F878B5DF9680 /* ZFLandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE50D4E22E94E4B043EF26F4D36B6C /* ZFLandscapeViewController.m */; };
+		E298C3B7350F53CAC2B2C5D7441D7067 /* UIViewController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 601B18143B6E5A5A73C66121DBE6B60F /* UIViewController+ZFPlayerRotation.m */; };
+		E5596D295B7E519F1F096B4360A0E786 /* DELETEResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = CE85F9D5C60E582D6EE125466641C639 /* DELETEResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E980819E93D671831BAF27C76DEE98D3 /* ZFOrientationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E2973EE84AB12194897325F82C3E8E /* ZFOrientationObserver.m */; };
+		E9A305450ED197CA989450F7AAB3DFED /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FA060B2CCBB069EBB8C6DC24F22CC571 /* WebSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E9FC570068D805ACE7030E6380E37CB4 /* Pods-HLSLocalServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3FE345E0BA03CD7724F48219BA5D75D /* Pods-HLSLocalServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA135B344AED7F74D2983378EFA6E7F1 /* DDContextFilterLogFormatter+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = C18647A755F91429375E68839DE3CEDE /* DDContextFilterLogFormatter+Deprecated.m */; };
+		EB38C289A8B41696C847B26D5786B229 /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5967374C26AB6C22D361187E3386D33F /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED13E3F53C053B728843525DE714323C /* ZFSpeedLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3358DD9B7496B0C4AE87112058BF32 /* ZFSpeedLoadingView.m */; };
+		EED96864A019724A8174E489D2A3C153 /* HTTPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 814A1AEAAB689BF034865E600B558E7F /* HTTPLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF6B7BC53F2504D12336201E3F1D4FD7 /* ZFSmallFloatControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = CAAA4F55650ADF053513353FEC821D2C /* ZFSmallFloatControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2A5D281405EC8683216515B2D0D3F27 /* UIImageView+ZFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 623728CBA0EE76F06ABC9F9B1876FA44 /* UIImageView+ZFCache.m */; };
+		F2DB7D67FC18AE0892DEBF962F6478DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20243D2A2B869E5180A5018EA91679E6 /* Foundation.framework */; };
+		F48CA8F4D5CAF0C617A80476DDBC39E0 /* ZFPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9CAB1120F5A445C7956022B0517AB49 /* ZFPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5BA10AC4BD51E28B578F2E6BD2D31F8 /* ZFAVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F42A035EEB97D7138C122ACDA2CEC236 /* ZFAVPlayerManager.m */; };
+		F6CC1BD6F4F0BAB5DEE6FBD1B2E874DC /* ZFPlayerMediaControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 10DF52C4A32BCE8F9349745D62A86297 /* ZFPlayerMediaControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71CE1743A55378E6AC2267A2F2E0FCD /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C1082EFAE0801DA27637F26DCD06F /* DDRange.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAF970FE9FAC4FEDB93E86E06A3AC287 /* ZFLandscapeRotationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 799E09540BF43048B458746F835769A6 /* ZFLandscapeRotationManager.m */; };
+		FB6731D24D5338E80FC8EAD2D779362C /* DDContextFilterLogFormatter+Deprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 70547120CD3DD9C284B6D8D886462D3B /* DDContextFilterLogFormatter+Deprecated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF31FB229703780027F9719D522FF046 /* DAVConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 80BEB744E5C73367434EE48B5B405815 /* DAVConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF7EB0C43A239B674F582BD61CBA2B0F /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D54D82B2D9BAAEDD2D209C96823CC8B /* GCDWebServerMultiPartFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1083F9CDBE0C451ABB7A30F26F9BAE5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
+			remoteInfo = CocoaLumberjack;
+		};
+		3E89D43DB37D6E5598548843EA440874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
+			remoteInfo = CocoaLumberjack;
+		};
+		668677CB14D5266EDC14EC9DF5B3DF9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		74FF3F2B56F2D6BD62E0C3A90536E710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF9F3B1BBEC7F642AA07171CF4B2509;
+			remoteInfo = CocoaHTTPServer;
+		};
+		952012B4E689EDC180D1BA31925DA2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93FD1F93E0C30B2749BD8A6EC148F233;
+			remoteInfo = ZFPlayer;
+		};
+		B88A6CC8E2878A1D7C6733D1B06A0E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD904F32069787EFB2DFFE05EB82F5BD;
+			remoteInfo = GCDWebServer;
+		};
+		D49B100287C9AD5DDFE8E8C597A64786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0184AA6A7E8FDC9F04246F486CBF7CD3 /* CocoaLumberjack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.debug.xcconfig; sourceTree = "<group>"; };
+		01A53149FF3F3081C836700B4B364E1E /* ZFPlayerConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerConst.h; path = ZFPlayer/Classes/Core/ZFPlayerConst.h; sourceTree = "<group>"; };
+		02E5784ED0C51783E1EDA07DD76F30C4 /* Pods-HLSLocalServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLSLocalServer-dummy.m"; sourceTree = "<group>"; };
+		03D3493A6E4714B23BA70F4EF001F8AF /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Sources/CocoaLumberjack/DDASLLogger.m; sourceTree = "<group>"; };
+		0493C18AB11422117FF69A73768AD972 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLogMacros.h; sourceTree = "<group>"; };
+		04C3398EFB9B34A650BD202322E8443A /* DDLoggerNames.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLoggerNames.m; path = Sources/CocoaLumberjack/DDLoggerNames.m; sourceTree = "<group>"; };
+		04E326332FE26B2852276AE05CF0C8BC /* CLIColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLIColor.m; path = Sources/CocoaLumberjack/CLI/CLIColor.m; sourceTree = "<group>"; };
+		0549C687DACFAE788A145CB3224AD557 /* ZFPlayerStatusBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerStatusBar.m; path = ZFPlayer/Classes/ControlView/ZFPlayerStatusBar.m; sourceTree = "<group>"; };
+		08AFACAA1C9CA7F20A73B2F8D0624035 /* ZFPlayer.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZFPlayer.bundle; path = ZFPlayer/Classes/ControlView/ZFPlayer.bundle; sourceTree = "<group>"; };
+		0903EB77D68DA86731EE4B74B261F5FF /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPRedirectResponse.m; path = Core/Responses/HTTPRedirectResponse.m; sourceTree = "<group>"; };
+		094D016BD968F67B4C47BE53D6092C8B /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = GCDWebServer/Responses/GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		0A1EAA3D1595A94D433DA034FC60FF9A /* ZFPlayerLogManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerLogManager.m; path = ZFPlayer/Classes/Core/ZFPlayerLogManager.m; sourceTree = "<group>"; };
+		0AAB46C336F618F523ED7D422285CFEC /* CocoaHTTPServer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaHTTPServer; path = CocoaHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACAA7804668B9C5AD36024C4B8864D1 /* ZFVolumeBrightnessView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFVolumeBrightnessView.m; path = ZFPlayer/Classes/ControlView/ZFVolumeBrightnessView.m; sourceTree = "<group>"; };
+		0DDBD34E9FF762C01A76E8C50D931F36 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		0F41CA6343039F399BE53223F71E300B /* GCDWebServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCDWebServer-dummy.m"; sourceTree = "<group>"; };
+		0FC9E43730838C0C615CCB9020B8E571 /* ZFLandscapeRotationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFLandscapeRotationManager.h; path = ZFPlayer/Classes/Core/ZFLandscapeRotationManager.h; sourceTree = "<group>"; };
+		10DF52C4A32BCE8F9349745D62A86297 /* ZFPlayerMediaControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerMediaControl.h; path = ZFPlayer/Classes/Core/ZFPlayerMediaControl.h; sourceTree = "<group>"; };
+		118BAB25CA9C9B911DE59BD7C77305E8 /* ZFLandscapeRotationManager_iOS16.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFLandscapeRotationManager_iOS16.h; path = ZFPlayer/Classes/Core/ZFLandscapeRotationManager_iOS16.h; sourceTree = "<group>"; };
+		127071A3BE3E64C31CF7933E8CA06EC3 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDMultiFormatter.h; sourceTree = "<group>"; };
+		13EBC0AF1E9D8044C633894E732F0F1B /* ZFPlayerNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerNotification.h; path = ZFPlayer/Classes/Core/ZFPlayerNotification.h; sourceTree = "<group>"; };
+		1404729A4C3EC32868B86D29A47F781A /* ZFPortraitViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPortraitViewController.m; path = ZFPlayer/Classes/Core/ZFPortraitViewController.m; sourceTree = "<group>"; };
+		14175FF16C9DCC6B37CD95F1C1B385CF /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		1523E015243538C0E3A31286B29C907B /* WebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebSocket.h; path = Core/WebSocket.h; sourceTree = "<group>"; };
+		16ECD3DCFF5507385003C6D0BF2199A5 /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPAsyncFileResponse.h; path = Core/Responses/HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		197A4A725E0C948163567AE91F72B901 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		1ABE50D4E22E94E4B043EF26F4D36B6C /* ZFLandscapeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFLandscapeViewController.m; path = ZFPlayer/Classes/Core/ZFLandscapeViewController.m; sourceTree = "<group>"; };
+		1C0618C6F4D7D3F462EB5031DD929E80 /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
+		1DB814FD594AD0F6C57198DB5AC06AA4 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = GCDWebServer/Responses/GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		1E3358DD9B7496B0C4AE87112058BF32 /* ZFSpeedLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFSpeedLoadingView.m; path = ZFPlayer/Classes/ControlView/ZFSpeedLoadingView.m; sourceTree = "<group>"; };
+		1E349521A048283CF9D061B4316F8AF1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		200F68F79C6609F44057C52B1BDF5075 /* ZFKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFKVOController.h; path = ZFPlayer/Classes/Core/ZFKVOController.h; sourceTree = "<group>"; };
+		20243D2A2B869E5180A5018EA91679E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2091F9DE52163A0CAE215896798B4F0E /* UIScrollView+ZFPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+ZFPlayer.m"; path = "ZFPlayer/Classes/Core/UIScrollView+ZFPlayer.m"; sourceTree = "<group>"; };
+		2287361B4232EDBC13BCE659E01B4E58 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileRequest.h; path = GCDWebServer/Requests/GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		232E8E3E3E2D32145B5FCCB4E050D169 /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
+		234B091C7C96151F283D9F0EB3E3DC24 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = GCDWebServer/Responses/GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		24A04D806DC9570340AF00958872F665 /* ZFPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZFPlayer.modulemap; sourceTree = "<group>"; };
+		25556F1A8BBE651B67E42157C55F8B91 /* ZFReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFReachabilityManager.h; path = ZFPlayer/Classes/Core/ZFReachabilityManager.h; sourceTree = "<group>"; };
+		26843F796FE49AA107C3DAF73583D199 /* CocoaLumberjack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaLumberjack-Info.plist"; sourceTree = "<group>"; };
+		27480589C3789E0E15DFC4DFA343F297 /* ZFLandscapeWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFLandscapeWindow.h; path = ZFPlayer/Classes/Core/ZFLandscapeWindow.h; sourceTree = "<group>"; };
+		279FF3ED8E9AA1C9D24126E408514D03 /* ZFLandscapeRotationManager_iOS15.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFLandscapeRotationManager_iOS15.h; path = ZFPlayer/Classes/Core/ZFLandscapeRotationManager_iOS15.h; sourceTree = "<group>"; };
+		2C8FA812D8149E74DE2ECBF9C9FD4E76 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = GCDWebServer/Core/GCDWebServerResponse.h; sourceTree = "<group>"; };
+		2DAC96989DCDE2AAD283D787613E2A5C /* Pods-HLSLocalServer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLSLocalServer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DCD7E88253F539AED6DD8A68887C835 /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
+		2E2C4FF288FBD9DC55251355D0A17E7F /* ZFPlayerControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerControlView.m; path = ZFPlayer/Classes/ControlView/ZFPlayerControlView.m; sourceTree = "<group>"; };
+		2E679FDAEE4D78FA49096DF1F8BAA6FD /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		2F9B2DF1570AD6F493D65BB39FC8853A /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataRequest.h; path = GCDWebServer/Requests/GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		30B27B9ECE7CF3CE7608FDB2E100B78E /* HTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPResponse.h; path = Core/HTTPResponse.h; sourceTree = "<group>"; };
+		32371C56B839444CCCB633D01412F6C4 /* ZFSmallFloatControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFSmallFloatControlView.m; path = ZFPlayer/Classes/ControlView/ZFSmallFloatControlView.m; sourceTree = "<group>"; };
+		32CAC90449AD9916E536D36446CBEB59 /* ZFPortraitControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPortraitControlView.m; path = ZFPlayer/Classes/ControlView/ZFPortraitControlView.m; sourceTree = "<group>"; };
+		333C8A4D844FBF940CB3DD437766DB3F /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		352406BC15FACB8514A13B5EE7409B47 /* ZFNetworkSpeedMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFNetworkSpeedMonitor.m; path = ZFPlayer/Classes/ControlView/ZFNetworkSpeedMonitor.m; sourceTree = "<group>"; };
+		352557CA1E05B1A047A62B62848AA6B9 /* ZFLandScapeControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFLandScapeControlView.m; path = ZFPlayer/Classes/ControlView/ZFLandScapeControlView.m; sourceTree = "<group>"; };
+		35567596BA116D2EFC5740AAEB00B28B /* CocoaHTTPServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaHTTPServer-umbrella.h"; sourceTree = "<group>"; };
+		362970EA400FD9F4D4F45C6CB6659EB5 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerStreamedResponse.m; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		370C969F1CDF94EB7306A63AB3E5862B /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = "Sources/CocoaLumberjack/Supporting Files/DDLegacyMacros.h"; sourceTree = "<group>"; };
+		384DCBB6D8A211E6D192A9C665791157 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileResponse.m; path = GCDWebServer/Responses/GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		3ABF7ED19BA21E50A403E310E01BCC7A /* DELETEResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DELETEResponse.m; path = Extensions/WebDAV/DELETEResponse.m; sourceTree = "<group>"; };
+		3D54D82B2D9BAAEDD2D209C96823CC8B /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		4277EB4637BB0F2907854E477EC4F769 /* ZFPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZFPlayer-umbrella.h"; sourceTree = "<group>"; };
+		439AD0AA4AFF1636F00E7C95F8BBE872 /* ZFPlayerMediaPlayback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerMediaPlayback.h; path = ZFPlayer/Classes/Core/ZFPlayerMediaPlayback.h; sourceTree = "<group>"; };
+		4450CD0B7BD19581F3327FD6E86438C3 /* CocoaHTTPServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaHTTPServer-prefix.pch"; sourceTree = "<group>"; };
+		458C5762ADDB8A6E7AF2DE55317DBEF1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		46350BBA29018A9F14C06A908B283363 /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
+		46A708A7F0843512CA5659699CA11143 /* Pods-HLSLocalServer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLSLocalServer-frameworks.sh"; sourceTree = "<group>"; };
+		471876FB8F8AC996DC52FF63F31370D1 /* GCDWebServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-umbrella.h"; sourceTree = "<group>"; };
+		47991AE5A3130433190EA61C0620C2C0 /* HTTPDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPDataResponse.m; path = Core/Responses/HTTPDataResponse.m; sourceTree = "<group>"; };
+		47A052815DD727737698D1890CFFF85D /* HTTPConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPConnection.h; path = Core/HTTPConnection.h; sourceTree = "<group>"; };
+		4838BC523E863F23057D2C4E48DD301B /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Sources/CocoaLumberjack/DDASLLogCapture.m; sourceTree = "<group>"; };
+		4847CB64296047DE032EBE5D81D7AB3C /* DDData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDData.m; path = Core/Categories/DDData.m; sourceTree = "<group>"; };
+		48B1AFA6296019186C5E64DA506B91F5 /* CocoaHTTPServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaHTTPServer-dummy.m"; sourceTree = "<group>"; };
+		4A25B66200D5D30AF4083E8296E36042 /* ZFPlayerGestureControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerGestureControl.h; path = ZFPlayer/Classes/Core/ZFPlayerGestureControl.h; sourceTree = "<group>"; };
+		4B946FB9437E83EAD4A989A2788566FA /* MultipartFormDataParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MultipartFormDataParser.m; path = Core/Mime/MultipartFormDataParser.m; sourceTree = "<group>"; };
+		4D07C9E7A916D3D54077AAEFF15C99D1 /* DDData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDData.h; path = Core/Categories/DDData.h; sourceTree = "<group>"; };
+		4E2B421D289A63C8BD7E00C93FAADC52 /* ZFReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFReachabilityManager.m; path = ZFPlayer/Classes/Core/ZFReachabilityManager.m; sourceTree = "<group>"; };
+		4FB05BDC331814B59B19B1C7F34BE536 /* Pods-HLSLocalServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HLSLocalServer.modulemap"; sourceTree = "<group>"; };
+		51EF2B6E7A3D28F507561158B1D715E1 /* ZFLandScapeControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFLandScapeControlView.h; path = ZFPlayer/Classes/ControlView/ZFLandScapeControlView.h; sourceTree = "<group>"; };
+		530AF096C7687E04D8B5A27C3D3C60E1 /* ZFPersentInteractiveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPersentInteractiveTransition.h; path = ZFPlayer/Classes/Core/ZFPersentInteractiveTransition.h; sourceTree = "<group>"; };
+		553E61030C77AF9D36D16A556C703CB1 /* ZFLandscapeRotationManager_iOS15.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFLandscapeRotationManager_iOS15.m; path = ZFPlayer/Classes/Core/ZFLandscapeRotationManager_iOS15.m; sourceTree = "<group>"; };
+		58E3108822BED08DD12307D6E4A40078 /* ZFSpeedLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFSpeedLoadingView.h; path = ZFPlayer/Classes/ControlView/ZFSpeedLoadingView.h; sourceTree = "<group>"; };
+		5967374C26AB6C22D361187E3386D33F /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDAssertMacros.h; sourceTree = "<group>"; };
+		5AC820D10CF37F1E20A9D5C988BFCD87 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = GCDWebServer/Requests/GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		5AF3A19DFB9E6D9FE9CF9B5144C195DC /* ZFPlayerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerController.m; path = ZFPlayer/Classes/Core/ZFPlayerController.m; sourceTree = "<group>"; };
+		5AFA744A5634B3F6F5D86771010B28B7 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		5C795D3808D41EFA66BBF50F89622859 /* UIScrollView+ZFPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+ZFPlayer.h"; path = "ZFPlayer/Classes/Core/UIScrollView+ZFPlayer.h"; sourceTree = "<group>"; };
+		5E167B890839493EBEC71CF8083AED12 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLog.h; sourceTree = "<group>"; };
+		5E9C1082EFAE0801DA27637F26DCD06F /* DDRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDRange.m; path = Core/Categories/DDRange.m; sourceTree = "<group>"; };
+		5F227CD3D0DF6FDEA20A1F0A2CCC9625 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		5F6E51C6F9DD306DF25DB21C7FFE29C8 /* ZFLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFLoadingView.m; path = ZFPlayer/Classes/ControlView/ZFLoadingView.m; sourceTree = "<group>"; };
+		601B18143B6E5A5A73C66121DBE6B60F /* UIViewController+ZFPlayerRotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ZFPlayerRotation.m"; path = "ZFPlayer/Classes/Core/UIViewController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		60937765822C9272EA3C7FF327DECF33 /* DDOSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDOSLogger.m; path = Sources/CocoaLumberjack/DDOSLogger.m; sourceTree = "<group>"; };
+		61BF5391DAD78CEF484172074959906C /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		623728CBA0EE76F06ABC9F9B1876FA44 /* UIImageView+ZFCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+ZFCache.m"; path = "ZFPlayer/Classes/ControlView/UIImageView+ZFCache.m"; sourceTree = "<group>"; };
+		62B572E1835B8CDA940FA561A661393E /* DDFileLogger+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Internal.h"; path = "Sources/CocoaLumberjack/DDFileLogger+Internal.h"; sourceTree = "<group>"; };
+		62C9708F3E90600EB0D60F8460E1F35B /* ZFPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayer.h; path = ZFPlayer/Classes/Core/ZFPlayer.h; sourceTree = "<group>"; };
+		63F19F965BCA395CBCFEA2E87A5F3292 /* ZFLandscapeRotationManager_iOS16.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFLandscapeRotationManager_iOS16.m; path = ZFPlayer/Classes/Core/ZFLandscapeRotationManager_iOS16.m; sourceTree = "<group>"; };
+		63F4AEAE71AF0D535DFEBA485D47DA5A /* ZFNetworkSpeedMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFNetworkSpeedMonitor.h; path = ZFPlayer/Classes/ControlView/ZFNetworkSpeedMonitor.h; sourceTree = "<group>"; };
+		657C7B2DCCDA64D2E3D7435F8B6D0A2C /* GCDWebServerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerConnection.h; path = GCDWebServer/Core/GCDWebServerConnection.h; sourceTree = "<group>"; };
+		676C02F1B3AAF106FAFC86E1202C0382 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Sources/CocoaLumberjack/DDFileLogger.m; sourceTree = "<group>"; };
+		682EBC3FCB9A450CADA4E0DAB67EA7F8 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = GCDWebServer/Core/GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		68AF6628C77938941759D35B8F3AD7FF /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
+		691D0BBAF0D653EC17D972263AF31E9E /* MultipartMessageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultipartMessageHeader.h; path = Core/Mime/MultipartMessageHeader.h; sourceTree = "<group>"; };
+		6C2721D8732242F8D1052F57AA299AF6 /* UIView+ZFFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZFFrame.h"; path = "ZFPlayer/Classes/ControlView/UIView+ZFFrame.h"; sourceTree = "<group>"; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F21122B71C39B497DEDA7E9583534A0 /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPAsyncFileResponse.m; path = Core/Responses/HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
+		6FA5B9458497200B9FDDE4A24E4AA51D /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Sources/CocoaLumberjack/DDTTYLogger.m; sourceTree = "<group>"; };
+		702DB0EB64C48274AB89A01DD614EA11 /* ZFUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFUtilities.m; path = ZFPlayer/Classes/ControlView/ZFUtilities.m; sourceTree = "<group>"; };
+		70547120CD3DD9C284B6D8D886462D3B /* DDContextFilterLogFormatter+Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDContextFilterLogFormatter+Deprecated.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDContextFilterLogFormatter+Deprecated.h"; sourceTree = "<group>"; };
+		70E02B130D9296A69360A1942FF3B6C5 /* Pods-HLSLocalServer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLSLocalServer-Info.plist"; sourceTree = "<group>"; };
+		70FB67DB12C4D3F554A50F10978B2EA8 /* HTTPDynamicFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPDynamicFileResponse.m; path = Core/Responses/HTTPDynamicFileResponse.m; sourceTree = "<group>"; };
+		721389430F494E39C82ACBD9D5B3DCB6 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		721B352949267612D8D291F5699B2A51 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileResponse.h; path = GCDWebServer/Responses/GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		741B66DB3B93556012B100F05E852D3E /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDASLLogCapture.h; sourceTree = "<group>"; };
+		754A1CA179695DECA2CA94C1AF6910F2 /* PUTResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PUTResponse.h; path = Extensions/WebDAV/PUTResponse.h; sourceTree = "<group>"; };
+		78606684075F072752648ADF5A19EA7D /* GCDWebServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = GCDWebServer/Core/GCDWebServer.h; sourceTree = "<group>"; };
+		78AC1E2DE4BD6B72F04EAC04B1F18B12 /* ZFPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZFPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		790BD4023B8DC786673B01267B258075 /* MultipartMessageHeaderField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MultipartMessageHeaderField.m; path = Core/Mime/MultipartMessageHeaderField.m; sourceTree = "<group>"; };
+		793F4914A480D7BCABAC9F525AD0FC0C /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = GCDWebServer/Requests/GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		799E09540BF43048B458746F835769A6 /* ZFLandscapeRotationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFLandscapeRotationManager.m; path = ZFPlayer/Classes/Core/ZFLandscapeRotationManager.m; sourceTree = "<group>"; };
+		79D5C8F09231AA9256A94A836CD4F4A9 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Sources/CocoaLumberjack/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		7FBEBBB5079FC37C8006BC6A1075248D /* ZFPlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerController.h; path = ZFPlayer/Classes/Core/ZFPlayerController.h; sourceTree = "<group>"; };
+		80BEB744E5C73367434EE48B5B405815 /* DAVConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DAVConnection.h; path = Extensions/WebDAV/DAVConnection.h; sourceTree = "<group>"; };
+		814A1AEAAB689BF034865E600B558E7F /* HTTPLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPLogging.h; path = Core/HTTPLogging.h; sourceTree = "<group>"; };
+		814AB62B7C61963516C438BDCA8D9443 /* Pods-HLSLocalServer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HLSLocalServer"; path = Pods_HLSLocalServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AABCA2EEF22DA8772A98047DDC1152 /* ZFPortraitViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPortraitViewController.h; path = ZFPlayer/Classes/Core/ZFPortraitViewController.h; sourceTree = "<group>"; };
+		852C0DB6B884704C8332AA43BBCCD107 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		85FBB520FA5FF7E8D89906498B56F459 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		86CCE7207C82C07AD982EBBA4FFBCBB1 /* MultipartMessageHeaderField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultipartMessageHeaderField.h; path = Core/Mime/MultipartMessageHeaderField.h; sourceTree = "<group>"; };
+		86D6457FFD723F454F2D6690C9977C29 /* ZFSliderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFSliderView.m; path = ZFPlayer/Classes/ControlView/ZFSliderView.m; sourceTree = "<group>"; };
+		8716E69B932BC629EBBDDE882D644427 /* HTTPFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPFileResponse.h; path = Core/Responses/HTTPFileResponse.h; sourceTree = "<group>"; };
+		89256EF9DFCB93556C33E42B788FF55C /* ZFPortraitControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPortraitControlView.h; path = ZFPlayer/Classes/ControlView/ZFPortraitControlView.h; sourceTree = "<group>"; };
+		89D2A82A72BD0AE86A39E25EAE73F53F /* ZFLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFLoadingView.h; path = ZFPlayer/Classes/ControlView/ZFLoadingView.h; sourceTree = "<group>"; };
+		8A38EFC67B2B4609A57E45A181BC560C /* GCDWebServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.debug.xcconfig; sourceTree = "<group>"; };
+		8ADC749878FB3E25EB6559B55B150A4D /* DDLoggerNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLoggerNames.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLoggerNames.h; sourceTree = "<group>"; };
+		8B4CF7DFC40348BA466C5390005EEC05 /* ZFPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZFPlayer-prefix.pch"; sourceTree = "<group>"; };
+		8C095E60C29AF86ED262E80DD86AEBEE /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		8EA7102686D53A4597B4F6B4654C7403 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = "Sources/CocoaLumberjack/Supporting Files/CocoaLumberjack.h"; sourceTree = "<group>"; };
+		8F015247E5840BA82CF6B2D77381D2D1 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		9123F06D90942BBB5AE9FBB1C4DC62D5 /* DDFileLogger+Buffering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Buffering.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDFileLogger+Buffering.h"; sourceTree = "<group>"; };
+		91B5E0951C24CEDC78E41E4F2D6492F8 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = GCDWebServer/Core/GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		93C5FE34C73AF74E2B47A4097298323A /* ZFLandscapeViewController_iOS15.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFLandscapeViewController_iOS15.m; path = ZFPlayer/Classes/Core/ZFLandscapeViewController_iOS15.m; sourceTree = "<group>"; };
+		94A632D06307D37748347166C2BEF514 /* MultipartMessageHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MultipartMessageHeader.m; path = Core/Mime/MultipartMessageHeader.m; sourceTree = "<group>"; };
+		9565B5A6E826AEFF8E46DB0783C62E67 /* HTTPMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPMessage.h; path = Core/HTTPMessage.h; sourceTree = "<group>"; };
+		95E2850655C52B68788B4C5DD9263A9E /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFunctions.m; path = GCDWebServer/Core/GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		9698C4B7AB33BF5D88441AA7D2CE735F /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataResponse.h; path = GCDWebServer/Responses/GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		98226D92B526E328412607ACDDB61C00 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		9858EF6320CBF9AE23E579168BAF62F4 /* HTTPDynamicFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPDynamicFileResponse.h; path = Core/Responses/HTTPDynamicFileResponse.h; sourceTree = "<group>"; };
+		98E6386B90BAD136929EBC8BFDAD5B35 /* DDOSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDOSLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDOSLogger.h; sourceTree = "<group>"; };
+		9935E0523B0A65EE7B0AEC4F007D0974 /* DAVConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DAVConnection.m; path = Extensions/WebDAV/DAVConnection.m; sourceTree = "<group>"; };
+		9A665360648257AC75F384A559DE2583 /* ZFFloatView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFFloatView.h; path = ZFPlayer/Classes/Core/ZFFloatView.h; sourceTree = "<group>"; };
+		9C22103B3975548D15D4C5DFCACA97DC /* UIImageView+ZFCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+ZFCache.h"; path = "ZFPlayer/Classes/ControlView/UIImageView+ZFCache.h"; sourceTree = "<group>"; };
+		9D46AF212A0B4298A982BBCB7AD07DC0 /* ZFAVPlayerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFAVPlayerManager.h; path = ZFPlayer/Classes/AVPlayer/ZFAVPlayerManager.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A11884FFAE414851ED7163DA76D746B0 /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPRedirectResponse.h; path = Core/Responses/HTTPRedirectResponse.h; sourceTree = "<group>"; };
+		A1B995642CC4A8ECCD1B0BEF6BB284F2 /* CocoaHTTPServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaHTTPServer.release.xcconfig; sourceTree = "<group>"; };
+		A270502376CDBCC2680E7229B5DEC751 /* DDNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDNumber.h; path = Core/Categories/DDNumber.h; sourceTree = "<group>"; };
+		A2D1C3690ABA931CA86EFFE80BD5727B /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDFileLogger.h; sourceTree = "<group>"; };
+		A3E20B4BC6BCB8CE519B49C22B226868 /* ZFPresentTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPresentTransition.h; path = ZFPlayer/Classes/Core/ZFPresentTransition.h; sourceTree = "<group>"; };
+		A46D945B16AB417A5060357D01B76440 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		A534F2440159B70781B302372E61F95B /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
+		A6D8B55577F8B1AD9CBA263338308495 /* ZFPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZFPlayer-dummy.m"; sourceTree = "<group>"; };
+		A99A908407270A0747B5A18B4DCCE76A /* ZFOrientationObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFOrientationObserver.h; path = ZFPlayer/Classes/Core/ZFOrientationObserver.h; sourceTree = "<group>"; };
+		AA35C7D080742D1922D0CA402FBA5571 /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		AA952F1276C8595556965003F7447B42 /* MultipartFormDataParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultipartFormDataParser.h; path = Core/Mime/MultipartFormDataParser.h; sourceTree = "<group>"; };
+		AAE3E03C3A64860B2D0A955B330373FB /* DDNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDNumber.m; path = Core/Categories/DDNumber.m; sourceTree = "<group>"; };
+		AB1C165567377C3B698EA366E9C239C7 /* ZFPlayerNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerNotification.m; path = ZFPlayer/Classes/Core/ZFPlayerNotification.m; sourceTree = "<group>"; };
+		AD091D51D42F375F7F73606D892A33A7 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		ADA2EDA8719B46851A6D7EB49CFACD03 /* Pods-HLSLocalServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLSLocalServer.debug.xcconfig"; sourceTree = "<group>"; };
+		AE990D77E23BFA4A504EBF6B3D719DA6 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Sources/CocoaLumberjack/DDLog.m; sourceTree = "<group>"; };
+		AF1E86456750EB6A18B20A4C0CDB42B8 /* CocoaHTTPServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaHTTPServer.debug.xcconfig; sourceTree = "<group>"; };
+		B10F87D99014F1708624A47338FEAC6D /* ZFPersentInteractiveTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPersentInteractiveTransition.m; path = ZFPlayer/Classes/Core/ZFPersentInteractiveTransition.m; sourceTree = "<group>"; };
+		B124FAA927B4C2C33F54F1C7076C7981 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		B4FF8F4B1D5181775324E7CDF8439429 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		B52B5D4E55646A71120E03321E229249 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = GCDWebServer/Core/GCDWebServerConnection.m; sourceTree = "<group>"; };
+		B67ACA213F4E356DE19D03D5FCF0B01B /* CocoaLumberjack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-umbrella.h"; sourceTree = "<group>"; };
+		B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCDWebServer; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB04AF7147A1D4E0897A4D8DBBA5A6EF /* GCDWebServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCDWebServer.modulemap; sourceTree = "<group>"; };
+		BE7435784533848A3D0CAD958E400865 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		BEB4BF272FC69B359AB80082682061D8 /* ZFVolumeBrightnessView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFVolumeBrightnessView.h; path = ZFPlayer/Classes/ControlView/ZFVolumeBrightnessView.h; sourceTree = "<group>"; };
+		BF2570EFE3340A6F5E6B44146F2D1ED8 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		C0E774CDA3844F24CF413B9F96306A80 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		C18647A755F91429375E68839DE3CEDE /* DDContextFilterLogFormatter+Deprecated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DDContextFilterLogFormatter+Deprecated.m"; path = "Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter+Deprecated.m"; sourceTree = "<group>"; };
+		C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaLumberjack; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28289D3328D2F60C11665D9F375A435 /* ZFLandscapeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFLandscapeViewController.h; path = ZFPlayer/Classes/Core/ZFLandscapeViewController.h; sourceTree = "<group>"; };
+		C310E2A6274B99FDDF8C005A56C251A7 /* Pods-HLSLocalServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLSLocalServer.release.xcconfig"; sourceTree = "<group>"; };
+		C36B379BD9EB502B65943974248B38F3 /* Pods-HLSLocalServer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLSLocalServer-resources.sh"; sourceTree = "<group>"; };
+		C3F041FB944F3F7FA46BC34C1281A626 /* ZFPlayerGestureControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerGestureControl.m; path = ZFPlayer/Classes/Core/ZFPlayerGestureControl.m; sourceTree = "<group>"; };
+		C959DA7A8E9053366430CFECDF8BC138 /* ZFSliderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFSliderView.h; path = ZFPlayer/Classes/ControlView/ZFSliderView.h; sourceTree = "<group>"; };
+		C9BC334C6EF82A94220F36BB1B50ECE6 /* HTTPMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPMessage.m; path = Core/HTTPMessage.m; sourceTree = "<group>"; };
+		CA15CE3C562DDF95B232341305524788 /* HTTPFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPFileResponse.m; path = Core/Responses/HTTPFileResponse.m; sourceTree = "<group>"; };
+		CAAA4F55650ADF053513353FEC821D2C /* ZFSmallFloatControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFSmallFloatControlView.h; path = ZFPlayer/Classes/ControlView/ZFSmallFloatControlView.h; sourceTree = "<group>"; };
+		CB09F99F82F3BED2B52E1FF5C96A810B /* ZFPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerView.m; path = ZFPlayer/Classes/Core/ZFPlayerView.m; sourceTree = "<group>"; };
+		CCA995909D14C306A9813BC5F91454B0 /* DDFileLogger+Buffering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DDFileLogger+Buffering.m"; path = "Sources/CocoaLumberjack/Extensions/DDFileLogger+Buffering.m"; sourceTree = "<group>"; };
+		CD10B3EA21DEED1EA626E30D9B3BF636 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerMultiPartFormRequest.m; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		CD3FFB6D39869A91F0D9A3CD928D70B0 /* CocoaLumberjack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.release.xcconfig; sourceTree = "<group>"; };
+		CD77AC692AA5E43FA6CB874A5AA75FF9 /* ZFLandscapeWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFLandscapeWindow.m; path = ZFPlayer/Classes/Core/ZFLandscapeWindow.m; sourceTree = "<group>"; };
+		CE85F9D5C60E582D6EE125466641C639 /* DELETEResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DELETEResponse.h; path = Extensions/WebDAV/DELETEResponse.h; sourceTree = "<group>"; };
+		CE9242E0FE00D2F92E1878983FD211A0 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDTTYLogger.h; sourceTree = "<group>"; };
+		CF91C5D6920AB50C8C5BCF888A7F7AE1 /* HTTPConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPConnection.m; path = Core/HTTPConnection.m; sourceTree = "<group>"; };
+		D20D6C4DD5B38F77BF0FD292B7D711A0 /* GCDWebServer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GCDWebServer-Info.plist"; sourceTree = "<group>"; };
+		D211DE4A3658DF08DFA22B4365DAFF5B /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		D3216E61CE17E852C8051F8DD8F664E4 /* GCDWebServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.release.xcconfig; sourceTree = "<group>"; };
+		D36CF1B9FEAFB3DB809BA20FE418B01E /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPAuthenticationRequest.h; path = Core/HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		D3FE345E0BA03CD7724F48219BA5D75D /* Pods-HLSLocalServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLSLocalServer-umbrella.h"; sourceTree = "<group>"; };
+		D824537EB10DA3726B0FA0971DF43826 /* DDRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDRange.h; path = Core/Categories/DDRange.h; sourceTree = "<group>"; };
+		D9296AD4F05D01A649F01FD76EA118C6 /* ZFFloatView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFFloatView.m; path = ZFPlayer/Classes/Core/ZFFloatView.m; sourceTree = "<group>"; };
+		D94F3210A8C13AEE450EC80E849887CB /* ZFPlayerLogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerLogManager.h; path = ZFPlayer/Classes/Core/ZFPlayerLogManager.h; sourceTree = "<group>"; };
+		DC2724FDCC671822DC196C67D3C6C8BB /* ZFPlayerStatusBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerStatusBar.h; path = ZFPlayer/Classes/ControlView/ZFPlayerStatusBar.h; sourceTree = "<group>"; };
+		DEB4EF3904433A95026D28EAAAFFD781 /* ZFPresentTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPresentTransition.m; path = ZFPlayer/Classes/Core/ZFPresentTransition.m; sourceTree = "<group>"; };
+		E0C80ABB8D258E04ED3A73A98824B1BF /* CLIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLIColor.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/CLIColor.h; sourceTree = "<group>"; };
+		E125A903EB9F2AD585337ED940F20051 /* ZFPlayerControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerControlView.h; path = ZFPlayer/Classes/ControlView/ZFPlayerControlView.h; sourceTree = "<group>"; };
+		E148CC8546EB106979F84336B733D20A /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPAuthenticationRequest.m; path = Core/HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		E1E2973EE84AB12194897325F82C3E8E /* ZFOrientationObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFOrientationObserver.m; path = ZFPlayer/Classes/Core/ZFOrientationObserver.m; sourceTree = "<group>"; };
+		E20CB1E6F60C59FACF57B46372FE760C /* HTTPDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPDataResponse.h; path = Core/Responses/HTTPDataResponse.h; sourceTree = "<group>"; };
+		E266BBBD79D92C102C9787344C187E73 /* DAVResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DAVResponse.h; path = Extensions/WebDAV/DAVResponse.h; sourceTree = "<group>"; };
+		E3B6F04B0776CD5201C646862B83E630 /* HTTPServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPServer.m; path = Core/HTTPServer.m; sourceTree = "<group>"; };
+		E6106953F169500BDEFD141866FAB145 /* UIView+ZFFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZFFrame.m"; path = "ZFPlayer/Classes/ControlView/UIView+ZFFrame.m"; sourceTree = "<group>"; };
+		E7FA840041476367C98CA9A1141EC408 /* HTTPServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPServer.h; path = Core/HTTPServer.h; sourceTree = "<group>"; };
+		E8CB013F66347656067ECBC6DF50EACA /* DAVResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DAVResponse.m; path = Extensions/WebDAV/DAVResponse.m; sourceTree = "<group>"; };
+		EAF99757B820ED3D8FD4A7875702B3C8 /* CocoaHTTPServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaHTTPServer.modulemap; sourceTree = "<group>"; };
+		EBDF8C60C9D303F7F9D868900EBC2F41 /* PUTResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PUTResponse.m; path = Extensions/WebDAV/PUTResponse.m; sourceTree = "<group>"; };
+		ED363DD89BB17FB9F31F94524BA59CBB /* ZFPlayer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZFPlayer; path = ZFPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9CE00D2E5522CF2E861A7F1CB7D3BA /* ZFUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFUtilities.h; path = ZFPlayer/Classes/ControlView/ZFUtilities.h; sourceTree = "<group>"; };
+		EE4AA185FB4AB8115B8F12582630387E /* ZFPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZFPlayer.release.xcconfig; sourceTree = "<group>"; };
+		EFA35525DB6D56E56FC9F183D1E7493D /* ZFKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFKVOController.m; path = ZFPlayer/Classes/Core/ZFKVOController.m; sourceTree = "<group>"; };
+		EFA442A53148EE3EE4F96E5B4227AE2E /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDASLLogger.h; sourceTree = "<group>"; };
+		EFCA2FC121F842BF187B7E307B961104 /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
+		F254FFF57C4E3859FB4D3AA749852C53 /* Pods-HLSLocalServer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLSLocalServer-acknowledgements.plist"; sourceTree = "<group>"; };
+		F39FF45026E1D938EBED2E03D2B13305 /* ZFLandscapeViewController_iOS15.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFLandscapeViewController_iOS15.h; path = ZFPlayer/Classes/Core/ZFLandscapeViewController_iOS15.h; sourceTree = "<group>"; };
+		F42A035EEB97D7138C122ACDA2CEC236 /* ZFAVPlayerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFAVPlayerManager.m; path = ZFPlayer/Classes/AVPlayer/ZFAVPlayerManager.m; sourceTree = "<group>"; };
+		F97F5B2BD6EF2FEA664143897E474EFF /* ZFPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZFPlayer-Info.plist"; sourceTree = "<group>"; };
+		F9C7338BE96917CD2D94034C2C114D95 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = GCDWebServer/Core/GCDWebServerRequest.h; sourceTree = "<group>"; };
+		F9CAB1120F5A445C7956022B0517AB49 /* ZFPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerView.h; path = ZFPlayer/Classes/Core/ZFPlayerView.h; sourceTree = "<group>"; };
+		FA060B2CCBB069EBB8C6DC24F22CC571 /* WebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebSocket.m; path = Core/WebSocket.m; sourceTree = "<group>"; };
+		FE8490CCB63578696DF011C48006DF49 /* CocoaHTTPServer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaHTTPServer-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		358A35A31C95BCF50A167ECFDEDEF257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F150E917B6848B6FD2101955508147 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466F485C80AFC4793527200212500346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DB7D67FC18AE0892DEBF962F6478DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72512F6AFC38C3D9C29A77311887805A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E141438511049139EA7045C6440078E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F7C59A06ECF01C8BF1A37F5EA7D258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B146909976A822ED9A97EF9A8C95DA /* CFNetwork.framework in Frameworks */,
+				D8142DC2A1ECBD89F704BE11944532B4 /* Foundation.framework in Frameworks */,
+				13284ADCA851B3CF531D992CAC5EB69C /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE473C0C4B340CF43FBA579DCC03717B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57510204D6223539F861AEBF5ECD2BD7 /* CFNetwork.framework in Frameworks */,
+				B8303F0DF9906AF93D2C593B425F0B00 /* Foundation.framework in Frameworks */,
+				885915598CF9598D69F2495AA87B8FE8 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */,
+				26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */,
+				8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0050054F240EF23FF2651C20A4AEF4F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */,
+				0AAB46C336F618F523ED7D422285CFEC /* CocoaHTTPServer */,
+				C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */,
+				B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer */,
+				814AB62B7C61963516C438BDCA8D9443 /* Pods-HLSLocalServer */,
+				ED363DD89BB17FB9F31F94524BA59CBB /* ZFPlayer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02C9999C0DEC8053F72427CAD06D7C76 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				AD091D51D42F375F7F73606D892A33A7 /* GCDAsyncSocket.h */,
+				8F015247E5840BA82CF6B2D77381D2D1 /* GCDAsyncSocket.m */,
+				852C0DB6B884704C8332AA43BBCCD107 /* GCDAsyncUdpSocket.h */,
+				2E679FDAEE4D78FA49096DF1F8BAA6FD /* GCDAsyncUdpSocket.m */,
+				F7658247B3894E1E327F4E9E6393C6DF /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		06E0B324A003F4DCC7069BE43BF9A374 /* ZFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A16756D5009E91B274616B91597C256B /* AVPlayer */,
+				1956034F447600EA50D614F629FF59D0 /* ControlView */,
+				BE7FC650A1D7CC13E57A9133DBEB6C00 /* Core */,
+				5019B89442C3543666129D0506D3F955 /* Support Files */,
+			);
+			name = ZFPlayer;
+			path = ZFPlayer;
+			sourceTree = "<group>";
+		};
+		17253CDECE30A7B12CF126F0C599601B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				78606684075F072752648ADF5A19EA7D /* GCDWebServer.h */,
+				EFCA2FC121F842BF187B7E307B961104 /* GCDWebServer.m */,
+				657C7B2DCCDA64D2E3D7435F8B6D0A2C /* GCDWebServerConnection.h */,
+				B52B5D4E55646A71120E03321E229249 /* GCDWebServerConnection.m */,
+				2F9B2DF1570AD6F493D65BB39FC8853A /* GCDWebServerDataRequest.h */,
+				793F4914A480D7BCABAC9F525AD0FC0C /* GCDWebServerDataRequest.m */,
+				9698C4B7AB33BF5D88441AA7D2CE735F /* GCDWebServerDataResponse.h */,
+				234B091C7C96151F283D9F0EB3E3DC24 /* GCDWebServerDataResponse.m */,
+				1DB814FD594AD0F6C57198DB5AC06AA4 /* GCDWebServerErrorResponse.h */,
+				094D016BD968F67B4C47BE53D6092C8B /* GCDWebServerErrorResponse.m */,
+				2287361B4232EDBC13BCE659E01B4E58 /* GCDWebServerFileRequest.h */,
+				5AC820D10CF37F1E20A9D5C988BFCD87 /* GCDWebServerFileRequest.m */,
+				721B352949267612D8D291F5699B2A51 /* GCDWebServerFileResponse.h */,
+				384DCBB6D8A211E6D192A9C665791157 /* GCDWebServerFileResponse.m */,
+				682EBC3FCB9A450CADA4E0DAB67EA7F8 /* GCDWebServerFunctions.h */,
+				95E2850655C52B68788B4C5DD9263A9E /* GCDWebServerFunctions.m */,
+				5F227CD3D0DF6FDEA20A1F0A2CCC9625 /* GCDWebServerHTTPStatusCodes.h */,
+				3D54D82B2D9BAAEDD2D209C96823CC8B /* GCDWebServerMultiPartFormRequest.h */,
+				CD10B3EA21DEED1EA626E30D9B3BF636 /* GCDWebServerMultiPartFormRequest.m */,
+				91B5E0951C24CEDC78E41E4F2D6492F8 /* GCDWebServerPrivate.h */,
+				F9C7338BE96917CD2D94034C2C114D95 /* GCDWebServerRequest.h */,
+				68AF6628C77938941759D35B8F3AD7FF /* GCDWebServerRequest.m */,
+				2C8FA812D8149E74DE2ECBF9C9FD4E76 /* GCDWebServerResponse.h */,
+				A534F2440159B70781B302372E61F95B /* GCDWebServerResponse.m */,
+				B124FAA927B4C2C33F54F1C7076C7981 /* GCDWebServerStreamedResponse.h */,
+				362970EA400FD9F4D4F45C6CB6659EB5 /* GCDWebServerStreamedResponse.m */,
+				8C095E60C29AF86ED262E80DD86AEBEE /* GCDWebServerURLEncodedFormRequest.h */,
+				98226D92B526E328412607ACDDB61C00 /* GCDWebServerURLEncodedFormRequest.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		17B706551C7C1B9761C56AE23BAC06E5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44789E300D4B74FD1BA6EEF38B9377DF /* Pods-HLSLocalServer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1956034F447600EA50D614F629FF59D0 /* ControlView */ = {
+			isa = PBXGroup;
+			children = (
+				9C22103B3975548D15D4C5DFCACA97DC /* UIImageView+ZFCache.h */,
+				623728CBA0EE76F06ABC9F9B1876FA44 /* UIImageView+ZFCache.m */,
+				6C2721D8732242F8D1052F57AA299AF6 /* UIView+ZFFrame.h */,
+				E6106953F169500BDEFD141866FAB145 /* UIView+ZFFrame.m */,
+				51EF2B6E7A3D28F507561158B1D715E1 /* ZFLandScapeControlView.h */,
+				352557CA1E05B1A047A62B62848AA6B9 /* ZFLandScapeControlView.m */,
+				89D2A82A72BD0AE86A39E25EAE73F53F /* ZFLoadingView.h */,
+				5F6E51C6F9DD306DF25DB21C7FFE29C8 /* ZFLoadingView.m */,
+				63F4AEAE71AF0D535DFEBA485D47DA5A /* ZFNetworkSpeedMonitor.h */,
+				352406BC15FACB8514A13B5EE7409B47 /* ZFNetworkSpeedMonitor.m */,
+				E125A903EB9F2AD585337ED940F20051 /* ZFPlayerControlView.h */,
+				2E2C4FF288FBD9DC55251355D0A17E7F /* ZFPlayerControlView.m */,
+				DC2724FDCC671822DC196C67D3C6C8BB /* ZFPlayerStatusBar.h */,
+				0549C687DACFAE788A145CB3224AD557 /* ZFPlayerStatusBar.m */,
+				89256EF9DFCB93556C33E42B788FF55C /* ZFPortraitControlView.h */,
+				32CAC90449AD9916E536D36446CBEB59 /* ZFPortraitControlView.m */,
+				C959DA7A8E9053366430CFECDF8BC138 /* ZFSliderView.h */,
+				86D6457FFD723F454F2D6690C9977C29 /* ZFSliderView.m */,
+				CAAA4F55650ADF053513353FEC821D2C /* ZFSmallFloatControlView.h */,
+				32371C56B839444CCCB633D01412F6C4 /* ZFSmallFloatControlView.m */,
+				58E3108822BED08DD12307D6E4A40078 /* ZFSpeedLoadingView.h */,
+				1E3358DD9B7496B0C4AE87112058BF32 /* ZFSpeedLoadingView.m */,
+				ED9CE00D2E5522CF2E861A7F1CB7D3BA /* ZFUtilities.h */,
+				702DB0EB64C48274AB89A01DD614EA11 /* ZFUtilities.m */,
+				BEB4BF272FC69B359AB80082682061D8 /* ZFVolumeBrightnessView.h */,
+				0ACAA7804668B9C5AD36024C4B8864D1 /* ZFVolumeBrightnessView.m */,
+				548A1D7CB98CAC8162C53091346AE119 /* Resources */,
+			);
+			name = ControlView;
+			sourceTree = "<group>";
+		};
+		2F45DF013596B6AC94B1B9DF95FDA1D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DCD7E88253F539AED6DD8A68887C835 /* CocoaLumberjack.modulemap */,
+				AA35C7D080742D1922D0CA402FBA5571 /* CocoaLumberjack-dummy.m */,
+				26843F796FE49AA107C3DAF73583D199 /* CocoaLumberjack-Info.plist */,
+				D211DE4A3658DF08DFA22B4365DAFF5B /* CocoaLumberjack-prefix.pch */,
+				B67ACA213F4E356DE19D03D5FCF0B01B /* CocoaLumberjack-umbrella.h */,
+				0184AA6A7E8FDC9F04246F486CBF7CD3 /* CocoaLumberjack.debug.xcconfig */,
+				CD3FFB6D39869A91F0D9A3CD928D70B0 /* CocoaLumberjack.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		44789E300D4B74FD1BA6EEF38B9377DF /* Pods-HLSLocalServer */ = {
+			isa = PBXGroup;
+			children = (
+				4FB05BDC331814B59B19B1C7F34BE536 /* Pods-HLSLocalServer.modulemap */,
+				2DAC96989DCDE2AAD283D787613E2A5C /* Pods-HLSLocalServer-acknowledgements.markdown */,
+				F254FFF57C4E3859FB4D3AA749852C53 /* Pods-HLSLocalServer-acknowledgements.plist */,
+				02E5784ED0C51783E1EDA07DD76F30C4 /* Pods-HLSLocalServer-dummy.m */,
+				46A708A7F0843512CA5659699CA11143 /* Pods-HLSLocalServer-frameworks.sh */,
+				70E02B130D9296A69360A1942FF3B6C5 /* Pods-HLSLocalServer-Info.plist */,
+				C36B379BD9EB502B65943974248B38F3 /* Pods-HLSLocalServer-resources.sh */,
+				D3FE345E0BA03CD7724F48219BA5D75D /* Pods-HLSLocalServer-umbrella.h */,
+				ADA2EDA8719B46851A6D7EB49CFACD03 /* Pods-HLSLocalServer.debug.xcconfig */,
+				C310E2A6274B99FDDF8C005A56C251A7 /* Pods-HLSLocalServer.release.xcconfig */,
+			);
+			name = "Pods-HLSLocalServer";
+			path = "Target Support Files/Pods-HLSLocalServer";
+			sourceTree = "<group>";
+		};
+		48543BD12BAE355D69BF0F8231BDDAB3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				458C5762ADDB8A6E7AF2DE55317DBEF1 /* CFNetwork.framework */,
+				20243D2A2B869E5180A5018EA91679E6 /* Foundation.framework */,
+				1E349521A048283CF9D061B4316F8AF1 /* MobileCoreServices.framework */,
+				85FBB520FA5FF7E8D89906498B56F459 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5019B89442C3543666129D0506D3F955 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24A04D806DC9570340AF00958872F665 /* ZFPlayer.modulemap */,
+				A6D8B55577F8B1AD9CBA263338308495 /* ZFPlayer-dummy.m */,
+				F97F5B2BD6EF2FEA664143897E474EFF /* ZFPlayer-Info.plist */,
+				8B4CF7DFC40348BA466C5390005EEC05 /* ZFPlayer-prefix.pch */,
+				4277EB4637BB0F2907854E477EC4F769 /* ZFPlayer-umbrella.h */,
+				78AC1E2DE4BD6B72F04EAC04B1F18B12 /* ZFPlayer.debug.xcconfig */,
+				EE4AA185FB4AB8115B8F12582630387E /* ZFPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZFPlayer";
+			sourceTree = "<group>";
+		};
+		51A5305024319F1B6108C1FDD777D5CE /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				B2E878C2B65D07BE843282DA3136EDA3 /* Core */,
+				2F45DF013596B6AC94B1B9DF95FDA1D5 /* Support Files */,
+			);
+			name = CocoaLumberjack;
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		548A1D7CB98CAC8162C53091346AE119 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				08AFACAA1C9CA7F20A73B2F8D0624035 /* ZFPlayer.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5AC71EED62859F6B6DB2D9198F1577B6 /* CocoaHTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				80BEB744E5C73367434EE48B5B405815 /* DAVConnection.h */,
+				9935E0523B0A65EE7B0AEC4F007D0974 /* DAVConnection.m */,
+				E266BBBD79D92C102C9787344C187E73 /* DAVResponse.h */,
+				E8CB013F66347656067ECBC6DF50EACA /* DAVResponse.m */,
+				4D07C9E7A916D3D54077AAEFF15C99D1 /* DDData.h */,
+				4847CB64296047DE032EBE5D81D7AB3C /* DDData.m */,
+				A270502376CDBCC2680E7229B5DEC751 /* DDNumber.h */,
+				AAE3E03C3A64860B2D0A955B330373FB /* DDNumber.m */,
+				D824537EB10DA3726B0FA0971DF43826 /* DDRange.h */,
+				5E9C1082EFAE0801DA27637F26DCD06F /* DDRange.m */,
+				CE85F9D5C60E582D6EE125466641C639 /* DELETEResponse.h */,
+				3ABF7ED19BA21E50A403E310E01BCC7A /* DELETEResponse.m */,
+				16ECD3DCFF5507385003C6D0BF2199A5 /* HTTPAsyncFileResponse.h */,
+				6F21122B71C39B497DEDA7E9583534A0 /* HTTPAsyncFileResponse.m */,
+				D36CF1B9FEAFB3DB809BA20FE418B01E /* HTTPAuthenticationRequest.h */,
+				E148CC8546EB106979F84336B733D20A /* HTTPAuthenticationRequest.m */,
+				47A052815DD727737698D1890CFFF85D /* HTTPConnection.h */,
+				CF91C5D6920AB50C8C5BCF888A7F7AE1 /* HTTPConnection.m */,
+				E20CB1E6F60C59FACF57B46372FE760C /* HTTPDataResponse.h */,
+				47991AE5A3130433190EA61C0620C2C0 /* HTTPDataResponse.m */,
+				9858EF6320CBF9AE23E579168BAF62F4 /* HTTPDynamicFileResponse.h */,
+				70FB67DB12C4D3F554A50F10978B2EA8 /* HTTPDynamicFileResponse.m */,
+				8716E69B932BC629EBBDDE882D644427 /* HTTPFileResponse.h */,
+				CA15CE3C562DDF95B232341305524788 /* HTTPFileResponse.m */,
+				814A1AEAAB689BF034865E600B558E7F /* HTTPLogging.h */,
+				9565B5A6E826AEFF8E46DB0783C62E67 /* HTTPMessage.h */,
+				C9BC334C6EF82A94220F36BB1B50ECE6 /* HTTPMessage.m */,
+				A11884FFAE414851ED7163DA76D746B0 /* HTTPRedirectResponse.h */,
+				0903EB77D68DA86731EE4B74B261F5FF /* HTTPRedirectResponse.m */,
+				30B27B9ECE7CF3CE7608FDB2E100B78E /* HTTPResponse.h */,
+				E7FA840041476367C98CA9A1141EC408 /* HTTPServer.h */,
+				E3B6F04B0776CD5201C646862B83E630 /* HTTPServer.m */,
+				AA952F1276C8595556965003F7447B42 /* MultipartFormDataParser.h */,
+				4B946FB9437E83EAD4A989A2788566FA /* MultipartFormDataParser.m */,
+				691D0BBAF0D653EC17D972263AF31E9E /* MultipartMessageHeader.h */,
+				94A632D06307D37748347166C2BEF514 /* MultipartMessageHeader.m */,
+				86CCE7207C82C07AD982EBBA4FFBCBB1 /* MultipartMessageHeaderField.h */,
+				790BD4023B8DC786673B01267B258075 /* MultipartMessageHeaderField.m */,
+				754A1CA179695DECA2CA94C1AF6910F2 /* PUTResponse.h */,
+				EBDF8C60C9D303F7F9D868900EBC2F41 /* PUTResponse.m */,
+				1523E015243538C0E3A31286B29C907B /* WebSocket.h */,
+				FA060B2CCBB069EBB8C6DC24F22CC571 /* WebSocket.m */,
+				E946F81AE10A94C7A8D90AA605AF46F9 /* Support Files */,
+			);
+			name = CocoaHTTPServer;
+			path = CocoaHTTPServer;
+			sourceTree = "<group>";
+		};
+		602C92583FE89B43B46048757172FCA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02C9999C0DEC8053F72427CAD06D7C76 /* CocoaAsyncSocket */,
+				5AC71EED62859F6B6DB2D9198F1577B6 /* CocoaHTTPServer */,
+				51A5305024319F1B6108C1FDD777D5CE /* CocoaLumberjack */,
+				9FD3084ECF819B968B6E59C7FC830C81 /* GCDWebServer */,
+				06E0B324A003F4DCC7069BE43BF9A374 /* ZFPlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FD3084ECF819B968B6E59C7FC830C81 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				17253CDECE30A7B12CF126F0C599601B /* Core */,
+				B621947BB71DB1148BD5130AA725263C /* Support Files */,
+			);
+			name = GCDWebServer;
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		A16756D5009E91B274616B91597C256B /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9D46AF212A0B4298A982BBCB7AD07DC0 /* ZFAVPlayerManager.h */,
+				F42A035EEB97D7138C122ACDA2CEC236 /* ZFAVPlayerManager.m */,
+			);
+			name = AVPlayer;
+			sourceTree = "<group>";
+		};
+		B2E878C2B65D07BE843282DA3136EDA3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E0C80ABB8D258E04ED3A73A98824B1BF /* CLIColor.h */,
+				04E326332FE26B2852276AE05CF0C8BC /* CLIColor.m */,
+				8EA7102686D53A4597B4F6B4654C7403 /* CocoaLumberjack.h */,
+				BF2570EFE3340A6F5E6B44146F2D1ED8 /* DDAbstractDatabaseLogger.h */,
+				79D5C8F09231AA9256A94A836CD4F4A9 /* DDAbstractDatabaseLogger.m */,
+				741B66DB3B93556012B100F05E852D3E /* DDASLLogCapture.h */,
+				4838BC523E863F23057D2C4E48DD301B /* DDASLLogCapture.m */,
+				EFA442A53148EE3EE4F96E5B4227AE2E /* DDASLLogger.h */,
+				03D3493A6E4714B23BA70F4EF001F8AF /* DDASLLogger.m */,
+				5967374C26AB6C22D361187E3386D33F /* DDAssertMacros.h */,
+				333C8A4D844FBF940CB3DD437766DB3F /* DDContextFilterLogFormatter.h */,
+				14175FF16C9DCC6B37CD95F1C1B385CF /* DDContextFilterLogFormatter.m */,
+				70547120CD3DD9C284B6D8D886462D3B /* DDContextFilterLogFormatter+Deprecated.h */,
+				C18647A755F91429375E68839DE3CEDE /* DDContextFilterLogFormatter+Deprecated.m */,
+				BE7435784533848A3D0CAD958E400865 /* DDDispatchQueueLogFormatter.h */,
+				721389430F494E39C82ACBD9D5B3DCB6 /* DDDispatchQueueLogFormatter.m */,
+				A2D1C3690ABA931CA86EFFE80BD5727B /* DDFileLogger.h */,
+				676C02F1B3AAF106FAFC86E1202C0382 /* DDFileLogger.m */,
+				9123F06D90942BBB5AE9FBB1C4DC62D5 /* DDFileLogger+Buffering.h */,
+				CCA995909D14C306A9813BC5F91454B0 /* DDFileLogger+Buffering.m */,
+				62B572E1835B8CDA940FA561A661393E /* DDFileLogger+Internal.h */,
+				370C969F1CDF94EB7306A63AB3E5862B /* DDLegacyMacros.h */,
+				5E167B890839493EBEC71CF8083AED12 /* DDLog.h */,
+				AE990D77E23BFA4A504EBF6B3D719DA6 /* DDLog.m */,
+				B4FF8F4B1D5181775324E7CDF8439429 /* DDLog+LOGV.h */,
+				8ADC749878FB3E25EB6559B55B150A4D /* DDLoggerNames.h */,
+				04C3398EFB9B34A650BD202322E8443A /* DDLoggerNames.m */,
+				0493C18AB11422117FF69A73768AD972 /* DDLogMacros.h */,
+				127071A3BE3E64C31CF7933E8CA06EC3 /* DDMultiFormatter.h */,
+				C0E774CDA3844F24CF413B9F96306A80 /* DDMultiFormatter.m */,
+				98E6386B90BAD136929EBC8BFDAD5B35 /* DDOSLogger.h */,
+				60937765822C9272EA3C7FF327DECF33 /* DDOSLogger.m */,
+				CE9242E0FE00D2F92E1878983FD211A0 /* DDTTYLogger.h */,
+				6FA5B9458497200B9FDDE4A24E4AA51D /* DDTTYLogger.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B621947BB71DB1148BD5130AA725263C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB04AF7147A1D4E0897A4D8DBBA5A6EF /* GCDWebServer.modulemap */,
+				0F41CA6343039F399BE53223F71E300B /* GCDWebServer-dummy.m */,
+				D20D6C4DD5B38F77BF0FD292B7D711A0 /* GCDWebServer-Info.plist */,
+				46350BBA29018A9F14C06A908B283363 /* GCDWebServer-prefix.pch */,
+				471876FB8F8AC996DC52FF63F31370D1 /* GCDWebServer-umbrella.h */,
+				8A38EFC67B2B4609A57E45A181BC560C /* GCDWebServer.debug.xcconfig */,
+				D3216E61CE17E852C8051F8DD8F664E4 /* GCDWebServer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GCDWebServer";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48543BD12BAE355D69BF0F8231BDDAB3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE7FC650A1D7CC13E57A9133DBEB6C00 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5C795D3808D41EFA66BBF50F89622859 /* UIScrollView+ZFPlayer.h */,
+				2091F9DE52163A0CAE215896798B4F0E /* UIScrollView+ZFPlayer.m */,
+				601B18143B6E5A5A73C66121DBE6B60F /* UIViewController+ZFPlayerRotation.m */,
+				9A665360648257AC75F384A559DE2583 /* ZFFloatView.h */,
+				D9296AD4F05D01A649F01FD76EA118C6 /* ZFFloatView.m */,
+				200F68F79C6609F44057C52B1BDF5075 /* ZFKVOController.h */,
+				EFA35525DB6D56E56FC9F183D1E7493D /* ZFKVOController.m */,
+				0FC9E43730838C0C615CCB9020B8E571 /* ZFLandscapeRotationManager.h */,
+				799E09540BF43048B458746F835769A6 /* ZFLandscapeRotationManager.m */,
+				279FF3ED8E9AA1C9D24126E408514D03 /* ZFLandscapeRotationManager_iOS15.h */,
+				553E61030C77AF9D36D16A556C703CB1 /* ZFLandscapeRotationManager_iOS15.m */,
+				118BAB25CA9C9B911DE59BD7C77305E8 /* ZFLandscapeRotationManager_iOS16.h */,
+				63F19F965BCA395CBCFEA2E87A5F3292 /* ZFLandscapeRotationManager_iOS16.m */,
+				C28289D3328D2F60C11665D9F375A435 /* ZFLandscapeViewController.h */,
+				1ABE50D4E22E94E4B043EF26F4D36B6C /* ZFLandscapeViewController.m */,
+				F39FF45026E1D938EBED2E03D2B13305 /* ZFLandscapeViewController_iOS15.h */,
+				93C5FE34C73AF74E2B47A4097298323A /* ZFLandscapeViewController_iOS15.m */,
+				27480589C3789E0E15DFC4DFA343F297 /* ZFLandscapeWindow.h */,
+				CD77AC692AA5E43FA6CB874A5AA75FF9 /* ZFLandscapeWindow.m */,
+				A99A908407270A0747B5A18B4DCCE76A /* ZFOrientationObserver.h */,
+				E1E2973EE84AB12194897325F82C3E8E /* ZFOrientationObserver.m */,
+				530AF096C7687E04D8B5A27C3D3C60E1 /* ZFPersentInteractiveTransition.h */,
+				B10F87D99014F1708624A47338FEAC6D /* ZFPersentInteractiveTransition.m */,
+				62C9708F3E90600EB0D60F8460E1F35B /* ZFPlayer.h */,
+				01A53149FF3F3081C836700B4B364E1E /* ZFPlayerConst.h */,
+				7FBEBBB5079FC37C8006BC6A1075248D /* ZFPlayerController.h */,
+				5AF3A19DFB9E6D9FE9CF9B5144C195DC /* ZFPlayerController.m */,
+				4A25B66200D5D30AF4083E8296E36042 /* ZFPlayerGestureControl.h */,
+				C3F041FB944F3F7FA46BC34C1281A626 /* ZFPlayerGestureControl.m */,
+				D94F3210A8C13AEE450EC80E849887CB /* ZFPlayerLogManager.h */,
+				0A1EAA3D1595A94D433DA034FC60FF9A /* ZFPlayerLogManager.m */,
+				10DF52C4A32BCE8F9349745D62A86297 /* ZFPlayerMediaControl.h */,
+				439AD0AA4AFF1636F00E7C95F8BBE872 /* ZFPlayerMediaPlayback.h */,
+				13EBC0AF1E9D8044C633894E732F0F1B /* ZFPlayerNotification.h */,
+				AB1C165567377C3B698EA366E9C239C7 /* ZFPlayerNotification.m */,
+				F9CAB1120F5A445C7956022B0517AB49 /* ZFPlayerView.h */,
+				CB09F99F82F3BED2B52E1FF5C96A810B /* ZFPlayerView.m */,
+				82AABCA2EEF22DA8772A98047DDC1152 /* ZFPortraitViewController.h */,
+				1404729A4C3EC32868B86D29A47F781A /* ZFPortraitViewController.m */,
+				A3E20B4BC6BCB8CE519B49C22B226868 /* ZFPresentTransition.h */,
+				DEB4EF3904433A95026D28EAAAFFD781 /* ZFPresentTransition.m */,
+				25556F1A8BBE651B67E42157C55F8B91 /* ZFReachabilityManager.h */,
+				4E2B421D289A63C8BD7E00C93FAADC52 /* ZFReachabilityManager.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				602C92583FE89B43B46048757172FCA2 /* Pods */,
+				0050054F240EF23FF2651C20A4AEF4F1 /* Products */,
+				17B706551C7C1B9761C56AE23BAC06E5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E946F81AE10A94C7A8D90AA605AF46F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF99757B820ED3D8FD4A7875702B3C8 /* CocoaHTTPServer.modulemap */,
+				48B1AFA6296019186C5E64DA506B91F5 /* CocoaHTTPServer-dummy.m */,
+				FE8490CCB63578696DF011C48006DF49 /* CocoaHTTPServer-Info.plist */,
+				4450CD0B7BD19581F3327FD6E86438C3 /* CocoaHTTPServer-prefix.pch */,
+				35567596BA116D2EFC5740AAEB00B28B /* CocoaHTTPServer-umbrella.h */,
+				AF1E86456750EB6A18B20A4C0CDB42B8 /* CocoaHTTPServer.debug.xcconfig */,
+				A1B995642CC4A8ECCD1B0BEF6BB284F2 /* CocoaHTTPServer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaHTTPServer";
+			sourceTree = "<group>";
+		};
+		F7658247B3894E1E327F4E9E6393C6DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61BF5391DAD78CEF484172074959906C /* CocoaAsyncSocket.modulemap */,
+				197A4A725E0C948163567AE91F72B901 /* CocoaAsyncSocket-dummy.m */,
+				A46D945B16AB417A5060357D01B76440 /* CocoaAsyncSocket-Info.plist */,
+				5AFA744A5634B3F6F5D86771010B28B7 /* CocoaAsyncSocket-prefix.pch */,
+				0DDBD34E9FF762C01A76E8C50D931F36 /* CocoaAsyncSocket-umbrella.h */,
+				1C0618C6F4D7D3F462EB5031DD929E80 /* CocoaAsyncSocket.debug.xcconfig */,
+				232E8E3E3E2D32145B5FCCB4E050D169 /* CocoaAsyncSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */,
+				67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */,
+				B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20455C21E1E945DFCA2883AE7DE73E1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04BA6F5DE5C0740EC63F0AF46D93B01 /* CocoaHTTPServer-umbrella.h in Headers */,
+				FF31FB229703780027F9719D522FF046 /* DAVConnection.h in Headers */,
+				AFD108329843DB62DBCE62BBC1A86B7F /* DAVResponse.h in Headers */,
+				402EFA6D7339A391C31315BD265BD7D5 /* DDData.h in Headers */,
+				24A895346695808E5CEF90CD04456121 /* DDNumber.h in Headers */,
+				B28FD679CD0248C257E4B83EF19F489A /* DDRange.h in Headers */,
+				E5596D295B7E519F1F096B4360A0E786 /* DELETEResponse.h in Headers */,
+				74D5B50CB9B058E547BD2BCF3661BE97 /* HTTPAsyncFileResponse.h in Headers */,
+				CE1146326ADB1DBD9841A85BC9187F1E /* HTTPAuthenticationRequest.h in Headers */,
+				DDF47765E8179A3EC6D56746B035E3F5 /* HTTPConnection.h in Headers */,
+				B059E8AB64EDAC65AC4B631311DD068C /* HTTPDataResponse.h in Headers */,
+				D424D12DADDF8E8641F7572798861E20 /* HTTPDynamicFileResponse.h in Headers */,
+				D5BE9023AEA341BF2F0B583DEA3AA61C /* HTTPFileResponse.h in Headers */,
+				EED96864A019724A8174E489D2A3C153 /* HTTPLogging.h in Headers */,
+				A263E3C89613338469605605D0AEE6B5 /* HTTPMessage.h in Headers */,
+				905E6958C6411FC0983F51646D18D849 /* HTTPRedirectResponse.h in Headers */,
+				0077CD18048A02EEB797EA7904719DDD /* HTTPResponse.h in Headers */,
+				954CA5F4BBFF2EF9341B8F68C33DDE40 /* HTTPServer.h in Headers */,
+				02DB36067F45780CBE4ACF041F0AB3A5 /* MultipartFormDataParser.h in Headers */,
+				72C1C0BF81744677C7552A0E049A4B50 /* MultipartMessageHeader.h in Headers */,
+				01AAE36790E38EBA0BA7505D06AC668C /* MultipartMessageHeaderField.h in Headers */,
+				26348B4ECCDE0D5B67A90F84B772C671 /* PUTResponse.h in Headers */,
+				67804693B9C23F960AC6DACBDFC3EDA9 /* WebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8316189815CEE77AF3AC86DAEC0D7902 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FC570068D805ACE7030E6380E37CB4 /* Pods-HLSLocalServer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889E3153A693AAF9AAB33B6E8EFE5008 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556B0C4875E07C2C8A0519899693C72B /* UIImageView+ZFCache.h in Headers */,
+				61A88716368F400CD462B76D9AAB3DBB /* UIScrollView+ZFPlayer.h in Headers */,
+				DC99689489319BFFE1717ABC55118A65 /* UIView+ZFFrame.h in Headers */,
+				7BA03371547D43019D779AB76C4BAB54 /* ZFAVPlayerManager.h in Headers */,
+				29E3745AAE224FE99BE3ACD8204A0BAC /* ZFFloatView.h in Headers */,
+				A2C2938891F4A95919773DD6A954A44F /* ZFKVOController.h in Headers */,
+				808A12384A84C1116C7DE9A072473C96 /* ZFLandScapeControlView.h in Headers */,
+				4A6216461951EA92024735E0D50A5CEA /* ZFLandscapeRotationManager.h in Headers */,
+				87EE95A78616C3243BAA4C6CF31EA153 /* ZFLandscapeRotationManager_iOS15.h in Headers */,
+				1D8E5C851E21B323637BAD53B9AE67B6 /* ZFLandscapeRotationManager_iOS16.h in Headers */,
+				0142A430D129C729982D62895B5AE5A4 /* ZFLandscapeViewController.h in Headers */,
+				97DCBAC9D16CE5AA914D5FC72D7CDDF5 /* ZFLandscapeViewController_iOS15.h in Headers */,
+				03184E8A0EFC86FB30FD66CDB3A6C3AA /* ZFLandscapeWindow.h in Headers */,
+				9D059B49BB3B44FDBCA7F58449813A6F /* ZFLoadingView.h in Headers */,
+				064746793F56591D53791B429704EA28 /* ZFNetworkSpeedMonitor.h in Headers */,
+				962B53744F300E81FEA88893795CC4B8 /* ZFOrientationObserver.h in Headers */,
+				603710025E2C85455C1D5FF942AB77F1 /* ZFPersentInteractiveTransition.h in Headers */,
+				60F5486E8F9EE576E7BF9E9673060F84 /* ZFPlayer.h in Headers */,
+				8CBA58F06A9C919DF38B39749CC8B4A5 /* ZFPlayer-umbrella.h in Headers */,
+				97C3B50B3783DB389C923B4C8E7578F6 /* ZFPlayerConst.h in Headers */,
+				526C75C1AFE7B42E6A8F6F2C83557175 /* ZFPlayerController.h in Headers */,
+				158F6984DCE357B419B69A705F919CE0 /* ZFPlayerControlView.h in Headers */,
+				C1368DFAF5F0813C0474CEE7CD439E20 /* ZFPlayerGestureControl.h in Headers */,
+				039F1830DE990D12A184CFD02CB54285 /* ZFPlayerLogManager.h in Headers */,
+				F6CC1BD6F4F0BAB5DEE6FBD1B2E874DC /* ZFPlayerMediaControl.h in Headers */,
+				2FFF585E9C5A7DBF467AE28F37CC6380 /* ZFPlayerMediaPlayback.h in Headers */,
+				334ECED633CAB8B64D11398B47815B12 /* ZFPlayerNotification.h in Headers */,
+				CAF0A23AC4E25B483F9C6A5E0351949A /* ZFPlayerStatusBar.h in Headers */,
+				F48CA8F4D5CAF0C617A80476DDBC39E0 /* ZFPlayerView.h in Headers */,
+				B3CE8C0C90025CF4F24487BBDCF50903 /* ZFPortraitControlView.h in Headers */,
+				768C4AFF8493D28D3FC1C1AC16744DDE /* ZFPortraitViewController.h in Headers */,
+				298F4B30DB2ECC083FAC742094FB023F /* ZFPresentTransition.h in Headers */,
+				5CCF93E89F4241274095C5E7543E21B6 /* ZFReachabilityManager.h in Headers */,
+				503963524ED16E421C2DB02E525810B0 /* ZFSliderView.h in Headers */,
+				EF6B7BC53F2504D12336201E3F1D4FD7 /* ZFSmallFloatControlView.h in Headers */,
+				C7E983C07AC4622FAE67A5F814711A02 /* ZFSpeedLoadingView.h in Headers */,
+				966652B409FD1D8A7C04280F8FDCCA3F /* ZFUtilities.h in Headers */,
+				356D49A649D63C907113F814BD8EF020 /* ZFVolumeBrightnessView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FEACE9DF1DEC4C91365EBEF6088E61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB4668A2775087EEBEFD4EC92F1FC0F /* CLIColor.h in Headers */,
+				5CC591C4ACFB80E65A9F670144140068 /* CocoaLumberjack.h in Headers */,
+				B007EF64AA9CE7AFBF5A622C81C69491 /* CocoaLumberjack-umbrella.h in Headers */,
+				072851320E8428B7D7302D242106A24F /* DDAbstractDatabaseLogger.h in Headers */,
+				14D2F9C7DA532C3B54B99B828D7EC250 /* DDASLLogCapture.h in Headers */,
+				8F27149A46E7EEF3B5D467962359A208 /* DDASLLogger.h in Headers */,
+				EB38C289A8B41696C847B26D5786B229 /* DDAssertMacros.h in Headers */,
+				5DBF75C21727F06ABF2F7C06D9C9E307 /* DDContextFilterLogFormatter.h in Headers */,
+				FB6731D24D5338E80FC8EAD2D779362C /* DDContextFilterLogFormatter+Deprecated.h in Headers */,
+				0B0AC1CA2A2DEA16AFB59533C95E8E24 /* DDDispatchQueueLogFormatter.h in Headers */,
+				C5E43231274E5468D0C862E46A64ACDD /* DDFileLogger.h in Headers */,
+				1AA751E242EA4245230136018316D307 /* DDFileLogger+Buffering.h in Headers */,
+				A777D8FD3B4BB74EB35DC1FDB8B319E7 /* DDFileLogger+Internal.h in Headers */,
+				1AF745EEAD4E50EA6B944D4729C5F379 /* DDLegacyMacros.h in Headers */,
+				6F890BB11AC394E029BD369AA500DC1B /* DDLog.h in Headers */,
+				7B065FFD6186A174424431FC6F5923F9 /* DDLog+LOGV.h in Headers */,
+				8F349BF2BD167E2432EA052BCDE55E81 /* DDLoggerNames.h in Headers */,
+				02C1E7F9E918CA4BF0373F467AB6537A /* DDLogMacros.h in Headers */,
+				34C16CFF58840FD517A356EC3F7AE349 /* DDMultiFormatter.h in Headers */,
+				C1B628263B2AC7C29AFC2635EF2641FB /* DDOSLogger.h in Headers */,
+				3A4516CDB9230AA39DC30BAAEFF1D374 /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC529973C52C216FAD8832BEB845E485 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192838E041AC1E270B4F80CC7EE461C9 /* GCDWebServer.h in Headers */,
+				C2456DED92A437BD36446043347F82FE /* GCDWebServer-umbrella.h in Headers */,
+				7DA71D99B84CC31B34655AB37756F334 /* GCDWebServerConnection.h in Headers */,
+				8383131832BB3BE0409236B26A47A426 /* GCDWebServerDataRequest.h in Headers */,
+				4F11F585DC59C8263F95EDEDBB002369 /* GCDWebServerDataResponse.h in Headers */,
+				C42FCE48A86E2D456501662784820E4C /* GCDWebServerErrorResponse.h in Headers */,
+				CAE997EA797010B106BF3F32C4F0D5E2 /* GCDWebServerFileRequest.h in Headers */,
+				CA62AD5F3518318B9DCF26A8113BEACE /* GCDWebServerFileResponse.h in Headers */,
+				85B473E8EB5074C92CBE92A0B88F1C5C /* GCDWebServerFunctions.h in Headers */,
+				02085A4DBE7C18EEE612837B12DFCF5E /* GCDWebServerHTTPStatusCodes.h in Headers */,
+				FF7EB0C43A239B674F582BD61CBA2B0F /* GCDWebServerMultiPartFormRequest.h in Headers */,
+				258C6A83830AC9D9218517AF7D17C624 /* GCDWebServerPrivate.h in Headers */,
+				C7866C8C01B672F0FD573F04347F02DB /* GCDWebServerRequest.h in Headers */,
+				B28116631DF8F5381C6668448CA3BD78 /* GCDWebServerResponse.h in Headers */,
+				0E473D493B9159E34D9DB4AFC4C29914 /* GCDWebServerStreamedResponse.h in Headers */,
+				2FFD063F189C85BD15BF2E58C74C1C29 /* GCDWebServerURLEncodedFormRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */,
+				B9BA2F3E20981E6576E8626EADB9300B /* Sources */,
+				D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */,
+				3D473FD104BFCD98C99B267430355524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */;
+			productType = "com.apple.product-type.framework";
+		};
+		93FD1F93E0C30B2749BD8A6EC148F233 /* ZFPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8768F2843779DB8C7AD64240E5812679 /* Build configuration list for PBXNativeTarget "ZFPlayer" */;
+			buildPhases = (
+				889E3153A693AAF9AAB33B6E8EFE5008 /* Headers */,
+				A80F0C72C3AB6CD2FCF637A820D730A0 /* Sources */,
+				466F485C80AFC4793527200212500346 /* Frameworks */,
+				209A53C172950D5E47023D247E66521C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFPlayer;
+			productName = ZFPlayer;
+			productReference = ED363DD89BB17FB9F31F94524BA59CBB /* ZFPlayer */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617BE26E9AC3BDBDE2416B2BD691CABA /* Build configuration list for PBXNativeTarget "GCDWebServer" */;
+			buildPhases = (
+				CC529973C52C216FAD8832BEB845E485 /* Headers */,
+				E25C041218A3D4362EFE642495BE7AB3 /* Sources */,
+				A6F7C59A06ECF01C8BF1A37F5EA7D258 /* Frameworks */,
+				1B3CE4019013BAFF62DD39D4E9647F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDWebServer;
+			productName = GCDWebServer;
+			productReference = B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADF9F3B1BBEC7F642AA07171CF4B2509 /* CocoaHTTPServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F71B32F82919F26D2B0711D7DF718A /* Build configuration list for PBXNativeTarget "CocoaHTTPServer" */;
+			buildPhases = (
+				20455C21E1E945DFCA2883AE7DE73E1A /* Headers */,
+				9A320FFE4F8B9A857842FA1DC8C53C12 /* Sources */,
+				BE473C0C4B340CF43FBA579DCC03717B /* Frameworks */,
+				0362B25F4C95252D271D166D261B8589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC90075FB0EC676C8A7588B12EE55787 /* PBXTargetDependency */,
+				37C7A2DD72E53705FA481037DA4A6228 /* PBXTargetDependency */,
+			);
+			name = CocoaHTTPServer;
+			productName = CocoaHTTPServer;
+			productReference = 0AAB46C336F618F523ED7D422285CFEC /* CocoaHTTPServer */;
+			productType = "com.apple.product-type.framework";
+		};
+		E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E5AC4014BFBA5D90935A5CD04E3E28B /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */;
+			buildPhases = (
+				C1FEACE9DF1DEC4C91365EBEF6088E61 /* Headers */,
+				447DD75FEB82252937FC03B47AEB3FB3 /* Sources */,
+				358A35A31C95BCF50A167ECFDEDEF257 /* Frameworks */,
+				66B156A1FBF5BBCB6F6CBC6C70D32EFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLumberjack;
+			productName = CocoaLumberjack;
+			productReference = C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1AF68E791E14F4C8F5538322515F3DD /* Pods-HLSLocalServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5904D045711F3A3B8615AB9A34BA1EB6 /* Build configuration list for PBXNativeTarget "Pods-HLSLocalServer" */;
+			buildPhases = (
+				8316189815CEE77AF3AC86DAEC0D7902 /* Headers */,
+				A136C2E3881A64145A0ACBB721A17045 /* Sources */,
+				72512F6AFC38C3D9C29A77311887805A /* Frameworks */,
+				E4A059CA78563598F026B694292E7C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEAA9266BDF47D468831E4CAA083F13D /* PBXTargetDependency */,
+				0DD3BB7F88D607D72F287FEA8E23FC2D /* PBXTargetDependency */,
+				F9F581C4B5EE2F954C683A15CA573B9D /* PBXTargetDependency */,
+				06C39C71548CD669CBC50992AB421A73 /* PBXTargetDependency */,
+				71FC1A369CBAF387DEB9D82A11B25DDB /* PBXTargetDependency */,
+			);
+			name = "Pods-HLSLocalServer";
+			productName = Pods_HLSLocalServer;
+			productReference = 814AB62B7C61963516C438BDCA8D9443 /* Pods-HLSLocalServer */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0050054F240EF23FF2651C20A4AEF4F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
+				ADF9F3B1BBEC7F642AA07171CF4B2509 /* CocoaHTTPServer */,
+				E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */,
+				AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */,
+				F1AF68E791E14F4C8F5538322515F3DD /* Pods-HLSLocalServer */,
+				93FD1F93E0C30B2749BD8A6EC148F233 /* ZFPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0362B25F4C95252D271D166D261B8589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B3CE4019013BAFF62DD39D4E9647F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209A53C172950D5E47023D247E66521C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D473FD104BFCD98C99B267430355524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B156A1FBF5BBCB6F6CBC6C70D32EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A059CA78563598F026B694292E7C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		447DD75FEB82252937FC03B47AEB3FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1608EFF3F1F958E43A3DC54AB691D05 /* CLIColor.m in Sources */,
+				1B695AD66EE8AA3B4BE252C1875750B5 /* CocoaLumberjack-dummy.m in Sources */,
+				4F34C91AFF6AA661FDCFA4422649E3C6 /* DDAbstractDatabaseLogger.m in Sources */,
+				5C1AF6C4AAFFAF2AD3B71888CF73E196 /* DDASLLogCapture.m in Sources */,
+				B2BF5CC84D1F35FFD2EED22777E6F5BB /* DDASLLogger.m in Sources */,
+				7B9B7F12A8A3736ACBE624E6A40929A3 /* DDContextFilterLogFormatter.m in Sources */,
+				EA135B344AED7F74D2983378EFA6E7F1 /* DDContextFilterLogFormatter+Deprecated.m in Sources */,
+				1B567CE46827740FEB1AC5C691C7C2C3 /* DDDispatchQueueLogFormatter.m in Sources */,
+				6855EAD1E4E4B43E8F493E040D137E8B /* DDFileLogger.m in Sources */,
+				3A0FAEB6BB1240671906DDD2C6CEE621 /* DDFileLogger+Buffering.m in Sources */,
+				135BF8C89171D3BA9015BEC912BE650E /* DDLog.m in Sources */,
+				2CC88973631A732FD37480B362D0D9B3 /* DDLoggerNames.m in Sources */,
+				DBF9E277C21A740D7AECF168B739B1FF /* DDMultiFormatter.m in Sources */,
+				095A4EEA0A4F56DB0BF89A24406BBD31 /* DDOSLogger.m in Sources */,
+				A7441333BC971B3DB6F8D4DE7F1FECD6 /* DDTTYLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A320FFE4F8B9A857842FA1DC8C53C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784811992438FE7C8A58ACBBB905C158 /* CocoaHTTPServer-dummy.m in Sources */,
+				880E3A83001434E5B845859C545BD07A /* DAVConnection.m in Sources */,
+				A941F1890493D7FE07D442AD5C6B51DE /* DAVResponse.m in Sources */,
+				5DF923CDD6B1DB2EFDEE73CC8B3E09DF /* DDData.m in Sources */,
+				CE2DB5B1E4317227DA5FB496610C094A /* DDNumber.m in Sources */,
+				F71CE1743A55378E6AC2267A2F2E0FCD /* DDRange.m in Sources */,
+				1F5583F874A7E61A3D1AC731AAD8B13B /* DELETEResponse.m in Sources */,
+				BDCCF2CEF62852FC0B113FBF4C5523B9 /* HTTPAsyncFileResponse.m in Sources */,
+				384D726CE8DB8F8E39282EB0E2A9AE41 /* HTTPAuthenticationRequest.m in Sources */,
+				A839E6217CA76C437D5EDAF39C7B92A7 /* HTTPConnection.m in Sources */,
+				07BFEDBF85466E1BA0B8F189D3E79E11 /* HTTPDataResponse.m in Sources */,
+				B5BE1B8B214A0375C2101A8283874115 /* HTTPDynamicFileResponse.m in Sources */,
+				8FF6D9A42176D6F0CC84D510E93DE591 /* HTTPFileResponse.m in Sources */,
+				CF47176AFEFDBBD855AD4B04B3DABC86 /* HTTPMessage.m in Sources */,
+				97A93D96C77E2E7CE250D734CD4238B0 /* HTTPRedirectResponse.m in Sources */,
+				8D3EB0294DDEEFDFC7307FF9F10E89F1 /* HTTPServer.m in Sources */,
+				81824204ACA166DC5358A40BEF07CAA0 /* MultipartFormDataParser.m in Sources */,
+				60499FD6D506247BCAD09E54BAB0F577 /* MultipartMessageHeader.m in Sources */,
+				9D66E736FDB62592518A9A66BEAC731D /* MultipartMessageHeaderField.m in Sources */,
+				50B00243245E1B5DF5DF5CB6B93F26EA /* PUTResponse.m in Sources */,
+				E9A305450ED197CA989450F7AAB3DFED /* WebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A136C2E3881A64145A0ACBB721A17045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454381EDB268D93A7DDBB1E7ED7743BD /* Pods-HLSLocalServer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80F0C72C3AB6CD2FCF637A820D730A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A5D281405EC8683216515B2D0D3F27 /* UIImageView+ZFCache.m in Sources */,
+				03D66386290DB5031758A0C3BD195B75 /* UIScrollView+ZFPlayer.m in Sources */,
+				9D100C1970544DC6006E518E8E3E8581 /* UIView+ZFFrame.m in Sources */,
+				E298C3B7350F53CAC2B2C5D7441D7067 /* UIViewController+ZFPlayerRotation.m in Sources */,
+				F5BA10AC4BD51E28B578F2E6BD2D31F8 /* ZFAVPlayerManager.m in Sources */,
+				AF3A504AA8150B078240AFFBC571A866 /* ZFFloatView.m in Sources */,
+				7A57629D7074974DD9348DA082E977D1 /* ZFKVOController.m in Sources */,
+				470344EE768FC25C8719E1A9B9A76199 /* ZFLandScapeControlView.m in Sources */,
+				FAF970FE9FAC4FEDB93E86E06A3AC287 /* ZFLandscapeRotationManager.m in Sources */,
+				949AEF7F1E27B68BBD6675CECA3B22BC /* ZFLandscapeRotationManager_iOS15.m in Sources */,
+				CBCBC37CF054A18966D0E2579E384BDE /* ZFLandscapeRotationManager_iOS16.m in Sources */,
+				DF91F9A7097F88CB5622F878B5DF9680 /* ZFLandscapeViewController.m in Sources */,
+				8FF8A2A57596CE8E8027C960009223FB /* ZFLandscapeViewController_iOS15.m in Sources */,
+				B80E4A94DB30634DD13C122028424DE7 /* ZFLandscapeWindow.m in Sources */,
+				075F02C926B246B9E2C7A4264A699734 /* ZFLoadingView.m in Sources */,
+				B505DB0792EFE82C8D40D95B23EE4374 /* ZFNetworkSpeedMonitor.m in Sources */,
+				E980819E93D671831BAF27C76DEE98D3 /* ZFOrientationObserver.m in Sources */,
+				DB9130167C942F246A6C11655FDF92C4 /* ZFPersentInteractiveTransition.m in Sources */,
+				1864E95FF2D1ADBF32FD86F8355CFB49 /* ZFPlayer-dummy.m in Sources */,
+				5E3D6E4EEFC865DF7DAD16856CE8A4F5 /* ZFPlayerController.m in Sources */,
+				85FE9A891EF340F047649EDB8C8BBEF6 /* ZFPlayerControlView.m in Sources */,
+				A8198EF9A72191EB1DF1D746B83BF809 /* ZFPlayerGestureControl.m in Sources */,
+				1C72AE8B037AA9A7D5B622F45DDD74F7 /* ZFPlayerLogManager.m in Sources */,
+				8CFA53A4ACED6AEB4C2B7D3114595884 /* ZFPlayerNotification.m in Sources */,
+				1356672419EF75DC8F0B7D18B4068433 /* ZFPlayerStatusBar.m in Sources */,
+				6FC458E13661366100FB003E3A155547 /* ZFPlayerView.m in Sources */,
+				D6AD96E99093CDA28F73E898A5354CCE /* ZFPortraitControlView.m in Sources */,
+				CA07D9599EF9FA8A0E68489D57C4A58F /* ZFPortraitViewController.m in Sources */,
+				449B981D00F95911D6BDE165830C8D5C /* ZFPresentTransition.m in Sources */,
+				408922BBCA1DA228F5B4603902A32790 /* ZFReachabilityManager.m in Sources */,
+				B3F9D6C3EE8A54CB2A006F06675631F7 /* ZFSliderView.m in Sources */,
+				061564A839B1A8E22E28EC67DCD9790C /* ZFSmallFloatControlView.m in Sources */,
+				ED13E3F53C053B728843525DE714323C /* ZFSpeedLoadingView.m in Sources */,
+				1F50D3D0C402D68284919F1C9E357284 /* ZFUtilities.m in Sources */,
+				2121047766D51B7BEF793200283936D1 /* ZFVolumeBrightnessView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BA2F3E20981E6576E8626EADB9300B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */,
+				4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */,
+				37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25C041218A3D4362EFE642495BE7AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A101968933DF9CD2704382DDA59FC0B /* GCDWebServer.m in Sources */,
+				DF5F9701CDCD4A324FF9D942B5BB2E14 /* GCDWebServer-dummy.m in Sources */,
+				28733C14B59F0BC154FB3F76C9F637E1 /* GCDWebServerConnection.m in Sources */,
+				D397999901996C42B9768CBADE5B55E5 /* GCDWebServerDataRequest.m in Sources */,
+				19919FC815BCD25518C388EB1427B6F9 /* GCDWebServerDataResponse.m in Sources */,
+				135B9E424A44225E8B73EFDE4DFE1739 /* GCDWebServerErrorResponse.m in Sources */,
+				0D8636813F45F76286699D0E2FD0429C /* GCDWebServerFileRequest.m in Sources */,
+				371B5D055B1927ABC1FE5F2CBD44CD15 /* GCDWebServerFileResponse.m in Sources */,
+				95DEEF851E39340E9FA158CFABD7C443 /* GCDWebServerFunctions.m in Sources */,
+				D015DD7567C65B0421DC536ED33A2775 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				37B6563E902FB9160B6C27CBC8FD72CE /* GCDWebServerRequest.m in Sources */,
+				9828CB96CEF532348083191A143D0022 /* GCDWebServerResponse.m in Sources */,
+				09FE847E27B56E8EB38B08092FC6B586 /* GCDWebServerStreamedResponse.m in Sources */,
+				47052864A1A923E5374546FAF49AD0F5 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06C39C71548CD669CBC50992AB421A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCDWebServer;
+			target = AD904F32069787EFB2DFFE05EB82F5BD /* GCDWebServer */;
+			targetProxy = B88A6CC8E2878A1D7C6733D1B06A0E8B /* PBXContainerItemProxy */;
+		};
+		0DD3BB7F88D607D72F287FEA8E23FC2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaHTTPServer;
+			target = ADF9F3B1BBEC7F642AA07171CF4B2509 /* CocoaHTTPServer */;
+			targetProxy = 74FF3F2B56F2D6BD62E0C3A90536E710 /* PBXContainerItemProxy */;
+		};
+		37C7A2DD72E53705FA481037DA4A6228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
+			targetProxy = 1083F9CDBE0C451ABB7A30F26F9BAE5E /* PBXContainerItemProxy */;
+		};
+		71FC1A369CBAF387DEB9D82A11B25DDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZFPlayer;
+			target = 93FD1F93E0C30B2749BD8A6EC148F233 /* ZFPlayer */;
+			targetProxy = 952012B4E689EDC180D1BA31925DA2C8 /* PBXContainerItemProxy */;
+		};
+		AC90075FB0EC676C8A7588B12EE55787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 668677CB14D5266EDC14EC9DF5B3DF9B /* PBXContainerItemProxy */;
+		};
+		AEAA9266BDF47D468831E4CAA083F13D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = D49B100287C9AD5DDFE8E8C597A64786 /* PBXContainerItemProxy */;
+		};
+		F9F581C4B5EE2F954C683A15CA573B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
+			targetProxy = 3E89D43DB37D6E5598548843EA440874 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		050F1479007FC34961A21BA8820A7AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C310E2A6274B99FDDF8C005A56C251A7 /* Pods-HLSLocalServer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DD_LEGACY_MACROS=1",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-HLSLocalServer/Pods-HLSLocalServer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HLSLocalServer/Pods-HLSLocalServer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17B4903410E76D23C95E1AAF87D9AF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3FFB6D39869A91F0D9A3CD928D70B0 /* CocoaLumberjack.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DD_LEGACY_MACROS=1",
+				);
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				PRODUCT_MODULE_NAME = CocoaLumberjack;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4A69F407767C2A0ABE1484CBE74B6751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0618C6F4D7D3F462EB5031DD929E80 /* CocoaAsyncSocket.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DD_LEGACY_MACROS=1",
+				);
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		548B2273C34E2B58414AC573589A8AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78AC1E2DE4BD6B72F04EAC04B1F18B12 /* ZFPlayer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZFPlayer/ZFPlayer-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DD_LEGACY_MACROS=1",
+				);
+				INFOPLIST_FILE = "Target Support Files/ZFPlayer/ZFPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ZFPlayer/ZFPlayer.modulemap";
+				PRODUCT_MODULE_NAME = ZFPlayer;
+				PRODUCT_NAME = ZFPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6D32AAE1B3E029D4A59A38F5BE4EDA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3216E61CE17E852C8051F8DD8F664E4 /* GCDWebServer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DD_LEGACY_MACROS=1",
+				);
+				INFOPLIST_FILE = "Target Support Files/GCDWebServer/GCDWebServer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GCDWebServer/GCDWebServer.modulemap";
+				PRODUCT_MODULE_NAME = GCDWebServer;
+				PRODUCT_NAME = GCDWebServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F68638FAAEDF638F3F8CAC8F0090770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B995642CC4A8ECCD1B0BEF6BB284F2 /* CocoaHTTPServer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaHTTPServer/CocoaHTTPServer-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DD_LEGACY_MACROS=1",
+				);
+				INFOPLIST_FILE = "Target Support Files/CocoaHTTPServer/CocoaHTTPServer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaHTTPServer/CocoaHTTPServer.modulemap";
+				PRODUCT_MODULE_NAME = CocoaHTTPServer;
+				PRODUCT_NAME = CocoaHTTPServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81869DE4E85FAE8415D02564BBDE5418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF1E86456750EB6A18B20A4C0CDB42B8 /* CocoaHTTPServer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaHTTPServer/CocoaHTTPServer-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DD_LEGACY_MACROS=1",
+				);
+				INFOPLIST_FILE = "Target Support Files/CocoaHTTPServer/CocoaHTTPServer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaHTTPServer/CocoaHTTPServer.modulemap";
+				PRODUCT_MODULE_NAME = CocoaHTTPServer;
+				PRODUCT_NAME = CocoaHTTPServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A21680EEF01EFDBADA582150658E1C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A38EFC67B2B4609A57E45A181BC560C /* GCDWebServer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DD_LEGACY_MACROS=1",
+				);
+				INFOPLIST_FILE = "Target Support Files/GCDWebServer/GCDWebServer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GCDWebServer/GCDWebServer.modulemap";
+				PRODUCT_MODULE_NAME = GCDWebServer;
+				PRODUCT_NAME = GCDWebServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7885984937D2ABA4F8F23CC99725EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0184AA6A7E8FDC9F04246F486CBF7CD3 /* CocoaLumberjack.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DD_LEGACY_MACROS=1",
+				);
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				PRODUCT_MODULE_NAME = CocoaLumberjack;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C73F315CB7521AF83ABB9D4930B7ED0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 232E8E3E3E2D32145B5FCCB4E050D169 /* CocoaAsyncSocket.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DD_LEGACY_MACROS=1",
+				);
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7101B04C5B9E985CC720FF69DBC4606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA2EDA8719B46851A6D7EB49CFACD03 /* Pods-HLSLocalServer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DD_LEGACY_MACROS=1",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-HLSLocalServer/Pods-HLSLocalServer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HLSLocalServer/Pods-HLSLocalServer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD95E850056256290A0533ECD1214423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4AA185FB4AB8115B8F12582630387E /* ZFPlayer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZFPlayer/ZFPlayer-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DD_LEGACY_MACROS=1",
+				);
+				INFOPLIST_FILE = "Target Support Files/ZFPlayer/ZFPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ZFPlayer/ZFPlayer.modulemap";
+				PRODUCT_MODULE_NAME = ZFPlayer;
+				PRODUCT_NAME = ZFPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E5AC4014BFBA5D90935A5CD04E3E28B /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7885984937D2ABA4F8F23CC99725EE5 /* Debug */,
+				17B4903410E76D23C95E1AAF87D9AF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5904D045711F3A3B8615AB9A34BA1EB6 /* Build configuration list for PBXNativeTarget "Pods-HLSLocalServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7101B04C5B9E985CC720FF69DBC4606 /* Debug */,
+				050F1479007FC34961A21BA8820A7AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617BE26E9AC3BDBDE2416B2BD691CABA /* Build configuration list for PBXNativeTarget "GCDWebServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21680EEF01EFDBADA582150658E1C17 /* Debug */,
+				6D32AAE1B3E029D4A59A38F5BE4EDA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81F71B32F82919F26D2B0711D7DF718A /* Build configuration list for PBXNativeTarget "CocoaHTTPServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81869DE4E85FAE8415D02564BBDE5418 /* Debug */,
+				6F68638FAAEDF638F3F8CAC8F0090770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8768F2843779DB8C7AD64240E5812679 /* Build configuration list for PBXNativeTarget "ZFPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548B2273C34E2B58414AC573589A8AFD /* Debug */,
+				FD95E850056256290A0533ECD1214423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A69F407767C2A0ABE1484CBE74B6751 /* Debug */,
+				C73F315CB7521AF83ABB9D4930B7ED0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

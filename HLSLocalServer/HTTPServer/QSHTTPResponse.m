@@ -29,15 +29,15 @@
         self.connection = connection;
         self.filePath = filePath;
     }
-    
+    // 通过filePath，生成对应的本地文件路径，进行文件查找
     NSString *documentDirctory  = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES).firstObject;
     NSString *localFilePath = [NSString stringWithFormat:@"%@%@", documentDirctory, filePath];
     NSLog(@"will query local data path => %@",localFilePath);
     if ([[NSFileManager defaultManager] fileExistsAtPath:localFilePath]) {
-        // 本地有文件
+        // 本地有文件，直接返回数据
         self.responseData = [NSData dataWithContentsOfFile:localFilePath];
     }else {
-        // 去下载
+        // 拼接远端视频文件链接，进行远程下载
         NSString *remoteUrlStr = [NSString stringWithFormat:@"https:/%@",filePath];
         NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:remoteUrlStr] cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:15];
         NSURLSession *session = [NSURLSession sharedSession];
@@ -53,8 +53,6 @@
             [self.connection responseHasAvailableData:self];
             // 写入本地
             [data writeToFile:localFilePath atomically:YES];
-            
-                    
         }];
         [task resume];
     }

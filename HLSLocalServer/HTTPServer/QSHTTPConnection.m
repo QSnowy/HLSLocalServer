@@ -10,7 +10,7 @@
 @implementation QSHTTPConnection
 
 - (NSObject<HTTPResponse> *)httpResponseForMethod:(NSString *)method URI:(NSString *)path {
-    
+    // 此处返回自定义的HTTP响应类
     return [[QSHTTPResponse alloc] initWithConnection:self filePath:path];
 }
 
